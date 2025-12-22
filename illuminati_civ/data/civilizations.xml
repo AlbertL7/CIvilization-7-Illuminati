@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Database>
+	<Types>
+		<Row Type="TRAIT_ILLUMINATI_ABILITY" Kind="KIND_TRAIT"/>
+	</Types>
+	<Civilizations>
+		<Row CivilizationType="CIVILIZATION_ILLUMINATI" AITargetCityPercentage="50" Name="LOC_CIVILIZATION_ILLUMINATI_NAME" FullName="LOC_CIVILIZATION_ILLUMINATI_FULLNAME" Description="LOC_CIVILIZATION_ILLUMINATI_DESCRIPTION" Adjective="LOC_CIVILIZATION_ILLUMINATI_ADJECTIVE" StartingCivilizationLevelType="CIVILIZATION_LEVEL_FULL_CIV" UniqueCultureProgressionTree="TREE_CIVICS_AQ_ILLUMINATI" CapitalName="LOC_CITY_NAME_ILLUMINATI1" RandomCityNameDepth="10" />
+	</Civilizations>
+	<CivilizationFavoredWonders>
+		<Row CivilizationType="CIVILIZATION_ILLUMINATI" FavoredWonderType="WONDER_EYE_OF_PROVIDENCE" FavoredWonderName="LOC_WONDER_EYE_OF_PROVIDENCE_NAME"/>
+	</CivilizationFavoredWonders>
+	<Modifiers/>
+	<ModifierArguments/>
+	<ModifierStrings/>
+	<Traits>
+		<Row TraitType="TRAIT_ILLUMINATI_ABILITY" Name="LOC_TRAIT_ILLUMINATI_ABILITY_NAME" Description="LOC_TRAIT_ILLUMINATI_ABILITY_DESCRIPTION" InternalOnly="true"/>
+	</Traits>
+	<TraitModifiers>
+		<Row TraitType="TRAIT_ILLUMINATI_ABILITY" ModifierId="MOD_ILLUMINATI_EARLY_ESPIONAGE"/>
+		<Row TraitType="TRAIT_ILLUMINATI_ABILITY" ModifierId="MOD_ILLUMINATI_GOLD_THEFT_BONUS"/>
+		<!-- Shadow Network: +2 Influence in all cities -->
+		<Row TraitType="TRAIT_ILLUMINATI_ABILITY" ModifierId="MOD_ILLUMINATI_SHADOW_NETWORK"/>
+		<Row TraitType="TRAIT_ILLUMINATI_ABILITY" ModifierId="MOD_ILLUMINATI_REDUCED_DETECTION"/>
+		<Row TraitType="TRAIT_ILLUMINATI_ABILITY" ModifierId="MOD_ILLUMINATI_DEFLECT_PENALTY"/>
+	</TraitModifiers>
+	<CivilizationTraits>
+		<Row CivilizationType="CIVILIZATION_ILLUMINATI" TraitType="TRAIT_ANTIQUITY_CIV"/>
+		<Row CivilizationType="CIVILIZATION_ILLUMINATI" TraitType="TRAIT_ILLUMINATI"/>
+		<Row CivilizationType="CIVILIZATION_ILLUMINATI" TraitType="TRAIT_ILLUMINATI_2"/>
+		<Row CivilizationType="CIVILIZATION_ILLUMINATI" TraitType="TRAIT_ILLUMINATI_ABILITY"/>
+	</CivilizationTraits>
+	<LeaderCivPriorities>
+		<!--This is the table used for AI, the UI uses LeaderCivilizationBias in config.xml-->
+		<Row Leader="LEADER_HATSHEPSUT" Civilization="CIVILIZATION_ILLUMINATI" Priority="3"/>
+		<Row Leader="LEADER_HARRIET_TUBMAN" Civilization="CIVILIZATION_ILLUMINATI" Priority="2"/>
+	</LeaderCivPriorities>
+	<CityNames>
+		<!--ILLUMINATI Secret Cities-->
+		<Row CivilizationType="CIVILIZATION_ILLUMINATI" CityName="LOC_CITY_NAME_ILLUMINATI1"/>
+		<Row CivilizationType="CIVILIZATION_ILLUMINATI" CityName="LOC_CITY_NAME_ILLUMINATI2"/>
+		<Row CivilizationType="CIVILIZATION_ILLUMINATI" CityName="LOC_CITY_NAME_ILLUMINATI3"/>
+		<Row CivilizationType="CIVILIZATION_ILLUMINATI" CityName="LOC_CITY_NAME_ILLUMINATI4"/>
+		<Row CivilizationType="CIVILIZATION_ILLUMINATI" CityName="LOC_CITY_NAME_ILLUMINATI5"/>
+		<Row CivilizationType="CIVILIZATION_ILLUMINATI" CityName="LOC_CITY_NAME_ILLUMINATI6"/>
+		<Row CivilizationType="CIVILIZATION_ILLUMINATI" CityName="LOC_CITY_NAME_ILLUMINATI7"/>
+		<Row CivilizationType="CIVILIZATION_ILLUMINATI" CityName="LOC_CITY_NAME_ILLUMINATI8"/>
+		<Row CivilizationType="CIVILIZATION_ILLUMINATI" CityName="LOC_CITY_NAME_ILLUMINATI9"/>
+		<Row CivilizationType="CIVILIZATION_ILLUMINATI" CityName="LOC_CITY_NAME_ILLUMINATI10"/>
+		<Row CivilizationType="CIVILIZATION_ILLUMINATI" CityName="LOC_CITY_NAME_ILLUMINATI11"/>
+		<Row CivilizationType="CIVILIZATION_ILLUMINATI" CityName="LOC_CITY_NAME_ILLUMINATI12"/>
+		<Row CivilizationType="CIVILIZATION_ILLUMINATI" CityName="LOC_CITY_NAME_ILLUMINATI13"/>
+		<Row CivilizationType="CIVILIZATION_ILLUMINATI" CityName="LOC_CITY_NAME_ILLUMINATI14"/>
+		<Row CivilizationType="CIVILIZATION_ILLUMINATI" CityName="LOC_CITY_NAME_ILLUMINATI15"/>
+	</CityNames>
+	<StartBiasTerrains>
+		<Row CivilizationType="CIVILIZATION_ILLUMINATI" TerrainType="TERRAIN_FLAT" Score="10"/>
+	</StartBiasTerrains>
+	<VisArt_CivilizationBuildingCultures>
+		<Row CivilizationType="CIVILIZATION_ILLUMINATI" BuildingCulture="BUILDING_CULTURE_MED"/>
+		<Row CivilizationType="CIVILIZATION_ILLUMINATI" BuildingCulture="ANT_STONE"/>
+		<Row CivilizationType="CIVILIZATION_ILLUMINATI" BuildingCulture="EXP_STONE"/>
+		<Row CivilizationType="CIVILIZATION_ILLUMINATI" BuildingCulture="MOD_STONE"/>
+	</VisArt_CivilizationBuildingCultures>
+	<VisArt_CivilizationUnitCultures>
+		<Row CivilizationType="CIVILIZATION_ILLUMINATI" UnitCulture="Med"/>
+	</VisArt_CivilizationUnitCultures>
+</Database>

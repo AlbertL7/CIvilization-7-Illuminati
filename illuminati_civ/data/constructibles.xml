@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Database>
+	<Types>
+		<Row Type="BUILDING_SECRET_LODGE" Kind="KIND_CONSTRUCTIBLE"/>
+	</Types>
+	<TypeQuotes>
+	</TypeQuotes>
+	<AgeGrowthBalances>
+	</AgeGrowthBalances>
+	<Constructibles>
+		<Row ConstructibleType="BUILDING_SECRET_LODGE" Name="LOC_BUILDING_SECRET_LODGE_NAME" Description="LOC_BUILDING_SECRET_LODGE_DESCRIPTION" Tooltip="LOC_BUILDING_SECRET_LODGE_TOOLTIP" ConstructibleClass="BUILDING" Cost="55" Population="1"/>
+	</Constructibles>
+	<Buildings>
+		<Row ConstructibleType="BUILDING_SECRET_LODGE" Movable="false" Town="True" TraitType="TRAIT_ILLUMINATI"/>
+	</Buildings>
+	<Improvements>
+	</Improvements>
+	<Wonders>
+	</Wonders>
+	<TypeTags>
+		<Row Type="BUILDING_SECRET_LODGE" Tag="CULTURE"/>
+		<Row Type="BUILDING_SECRET_LODGE" Tag="AGELESS"/>
+	</TypeTags>
+	<Constructible_ValidDistricts>
+		<Row ConstructibleType="BUILDING_SECRET_LODGE" DistrictType="DISTRICT_CITY_CENTER"/>
+		<Row ConstructibleType="BUILDING_SECRET_LODGE" DistrictType="DISTRICT_URBAN"/>
+	</Constructible_ValidDistricts>
+	<District_FreeConstructibles>
+	</District_FreeConstructibles>
+	<Constructible_ValidBiomes>
+	</Constructible_ValidBiomes>
+	<Constructible_InvalidAdjacentBiomes>
+	</Constructible_InvalidAdjacentBiomes>
+	<Constructible_ValidTerrains>
+	</Constructible_ValidTerrains>
+	<Constructible_RequiredFeatures>
+	</Constructible_RequiredFeatures>
+	<AgeConstructibleDefaultYields>
+	</AgeConstructibleDefaultYields>
+	<AgeConstructibleDefaultMaintenances>
+	</AgeConstructibleDefaultMaintenances>
+	<Constructible_YieldChanges>
+		<Row ConstructibleType="BUILDING_SECRET_LODGE" YieldType="YIELD_GOLD" YieldChange="2"/>
+		<Row ConstructibleType="BUILDING_SECRET_LODGE" YieldType="YIELD_CULTURE" YieldChange="1"/>
+	</Constructible_YieldChanges>
+	<Constructible_Maintenances>
+		<Row ConstructibleType="BUILDING_SECRET_LODGE" YieldType="YIELD_GOLD" Amount="1"/>
+	</Constructible_Maintenances>
+	<Constructible_Adjacencies>
+	</Constructible_Adjacencies>
+	<Adjacency_YieldChanges>
+	</Adjacency_YieldChanges>
+	<Constructible_WarehouseYields>
+	</Constructible_WarehouseYields>
+	<Warehouse_YieldChanges>
+ 	</Warehouse_YieldChanges>
+	<Constructible_WildcardAdjacencies>
+	</Constructible_WildcardAdjacencies>
+	<Constructible_Logistics>
+	</Constructible_Logistics>
+	<Constructible_Plunders>
+		<Row ConstructibleType="BUILDING_SECRET_LODGE" PlunderType="PLUNDER_GOLD" Amount="30"/>
+	</Constructible_Plunders>
+	<ConstructibleModifiers>
+	</ConstructibleModifiers>
+	<UniqueQuarters>
+		<Row UniqueQuarterType="QUARTER_SHADOW_SANCTUM" BuildingType1="BUILDING_SECRET_LODGE" BuildingType2="BUILDING_LIBRARY" Name="LOC_QUARTER_SHADOW_SANCTUM_NAME" Description="LOC_QUARTER_SHADOW_SANCTUM_DESCRIPTION" Tooltip="LOC_QUARTER_SHADOW_SANCTUM_TOOLTIP" TraitType="TRAIT_ILLUMINATI"/>
+	</UniqueQuarters>
+	<GameModifiers>
+		<Row ModifierId="MOD_SHADOW_SANCTUM_PRODUCTION"/>
+		<Row ModifierId="MOD_SHADOW_SANCTUM_RESOURCE_CAP"/>
+	</GameModifiers>
+	<!-- These are listed here so the AI can evalutate Unique Quarters. They do not have any effects on the game for human players. -->
+	<UniqueQuarterModifiers>
+		<Row UniqueQuarterType="QUARTER_SHADOW_SANCTUM" ModifierId="MOD_SHADOW_SANCTUM_PRODUCTION"/>
+		<Row UniqueQuarterType="QUARTER_SHADOW_SANCTUM" ModifierId="MOD_SHADOW_SANCTUM_RESOURCE_CAP"/>
+	</UniqueQuarterModifiers>
+	<Constructible_Advisories>
+		<Row ConstructibleType="BUILDING_SECRET_LODGE" AdvisoryClassType="ADVISORY_CLASS_CULTURE"/>
+	</Constructible_Advisories>
+</Database>

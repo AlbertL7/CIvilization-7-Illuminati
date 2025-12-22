@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="utf-8"?>
+<GameEffects xmlns="GameEffects">
+	<!-- ================================================== -->
+	<!-- ILLUMINATI TRADITIONS -->
+	<!-- ================================================== -->
+
+	<!-- VEIL OF SECRECY: +2 Culture on Gold Buildings -->
+	<!-- Our agents hide cultural influence within financial institutions -->
+	<Modifier id="TRADITION_ILLUMINATI_VEIL_OF_SECRECY_MOD" collection="COLLECTION_OWNER" effect="EFFECT_PLAYER_ADJUST_CONSTRUCTIBLE_YIELD">
+		<Argument name="Tag">GOLD</Argument>
+		<Argument name="Amount">2</Argument>
+		<Argument name="YieldType">YIELD_CULTURE</Argument>
+		<Argument name="Tooltip">LOC_TRADITION_ILLUMINATI_VEIL_OF_SECRECY_NAME</Argument>
+		<String context="Description">LOC_TRADITION_ILLUMINATI_VEIL_OF_SECRECY_DESCRIPTION</String>
+	</Modifier>
+
+	<!-- WEB OF INFLUENCE: +2 Influence and +2 Gold for every active Trade Route -->
+	<!-- Every trade route carries whispers of our influence -->
+	<Modifier id="TRADITION_ILLUMINATI_WEB_OF_INFLUENCE_MOD_DIPLOMACY" collection="COLLECTION_OWNER" effect="EFFECT_PLAYER_ADJUST_YIELD_PER_NUM_TRADE_ROUTES">
+		<Argument name="YieldType">YIELD_DIPLOMACY</Argument>
+		<Argument name="Amount">2</Argument>
+		<Argument name="Tooltip">LOC_TRADITION_ILLUMINATI_WEB_OF_INFLUENCE_NAME</Argument>
+		<String context="Description">LOC_TRADITION_ILLUMINATI_WEB_OF_INFLUENCE_DESCRIPTION</String>
+	</Modifier>
+	<Modifier id="TRADITION_ILLUMINATI_WEB_OF_INFLUENCE_MOD_GOLD" collection="COLLECTION_OWNER" effect="EFFECT_PLAYER_ADJUST_YIELD_PER_NUM_TRADE_ROUTES">
+		<Argument name="YieldType">YIELD_GOLD</Argument>
+		<Argument name="Amount">2</Argument>
+		<Argument name="Tooltip">LOC_TRADITION_ILLUMINATI_WEB_OF_INFLUENCE_NAME</Argument>
+	</Modifier>
+
+	<!-- FORBIDDEN KNOWLEDGE: +1 Science from Specialists, +3 Science in Towns -->
+	<!-- Our initiates unlock secrets hidden from common minds -->
+	<Modifier id="TRADITION_ILLUMINATI_FORBIDDEN_KNOWLEDGE_MOD_SPECIALISTS" collection="COLLECTION_PLAYER_CITIES" effect="EFFECT_CITY_ADJUST_WORKER_YIELD">
+		<Argument name="YieldType">YIELD_SCIENCE</Argument>
+		<Argument name="Amount">1</Argument>
+		<Argument name="Tooltip">LOC_TRADITION_ILLUMINATI_FORBIDDEN_KNOWLEDGE_NAME</Argument>
+		<String context="Description">LOC_TRADITION_ILLUMINATI_FORBIDDEN_KNOWLEDGE_DESCRIPTION</String>
+	</Modifier>
+	<Modifier id="TRADITION_ILLUMINATI_FORBIDDEN_KNOWLEDGE_MOD_TOWNS" collection="COLLECTION_PLAYER_CITIES" effect="EFFECT_CITY_ADJUST_YIELD">
+		<SubjectRequirements>
+			<Requirement type="REQUIREMENT_CITY_IS_TOWN"/>
+		</SubjectRequirements>
+		<Argument name="YieldType">YIELD_SCIENCE</Argument>
+		<Argument name="Amount">3</Argument>
+		<Argument name="Tooltip">LOC_TRADITION_ILLUMINATI_FORBIDDEN_KNOWLEDGE_NAME</Argument>
+	</Modifier>
+
+	<!-- ASCENSION: +1 Gold and +1 Influence per Resource, +5 Combat Strength in enemy territory -->
+	<!-- Ultimate mastery - control over resources, diplomacy, and warfare -->
+	<Modifier id="TRADITION_ILLUMINATI_ASCENSION_MOD_GOLD" collection="COLLECTION_OWNER" effect="EFFECT_PLAYER_ADJUST_YIELD_PER_RESOURCE">
+		<Argument name="YieldType">YIELD_GOLD</Argument>
+		<Argument name="Amount">1</Argument>
+		<Argument name="Tooltip">LOC_TRADITION_ILLUMINATI_ASCENSION_NAME</Argument>
+		<String context="Description">LOC_TRADITION_ILLUMINATI_ASCENSION_DESCRIPTION</String>
+	</Modifier>
+	<Modifier id="TRADITION_ILLUMINATI_ASCENSION_MOD_DIPLOMACY" collection="COLLECTION_OWNER" effect="EFFECT_PLAYER_ADJUST_YIELD_PER_RESOURCE">
+		<Argument name="YieldType">YIELD_DIPLOMACY</Argument>
+		<Argument name="Amount">1</Argument>
+		<Argument name="Tooltip">LOC_TRADITION_ILLUMINATI_ASCENSION_NAME</Argument>
+	</Modifier>
+	<Modifier id="TRADITION_ILLUMINATI_ASCENSION_MOD_COMBAT" collection="COLLECTION_PLAYER_COMBAT" effect="EFFECT_ADJUST_UNIT_STRENGTH_MODIFIER">
+		<SubjectRequirements>
+			<Requirement type="REQUIREMENT_UNIT_IN_ENEMY_TERRITORY"/>
+		</SubjectRequirements>
+		<Argument name="Amount">5</Argument>
+		<Argument name="Tooltip">LOC_TRADITION_ILLUMINATI_ASCENSION_NAME</Argument>
+	</Modifier>
+</GameEffects>

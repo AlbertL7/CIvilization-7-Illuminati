@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Database>
+	<AiListTypes>
+		<!-- Illuminati -->
+		<Row ListType="Illuminati Unit Biases"/>
+		<Row ListType="Illuminati Government Bias"/>
+		<Row ListType="Illuminati Constructibles Biases"/>
+		<Row ListType="Illuminati Tag Biases"/>
+	</AiListTypes>
+	<AiLists>
+		<!-- Illuminati -->
+		<Row ListType="Illuminati Unit Biases" LeaderType="TRAIT_ILLUMINATI" System="UnitBiases"/>
+		<Row ListType="Illuminati Government Bias" LeaderType="TRAIT_ILLUMINATI" System="GovernmentBiases"/>
+		<Row ListType="Illuminati Constructibles Biases" LeaderType="TRAIT_ILLUMINATI" System="ConstructibleBiases"/>
+		<Row ListType="Illuminati Tag Biases" LeaderType="TRAIT_ILLUMINATI" System="TagBiases"/>
+	</AiLists>
+	<AiFavoredItems>
+		<!-- Illuminati -->
+		<Row ListType="Illuminati Unit Biases" Item="UNIT_KNIGHTS_TEMPLAR" Value="50"/>
+		<Row ListType="Illuminati Unit Biases" Item="UNIT_KNIGHTS_TEMPLAR_2" Value="50"/>
+		<Row ListType="Illuminati Unit Biases" Item="UNIT_ASSASSIN_ILLUMINATI" Value="50"/>
+		<Row ListType="Illuminati Unit Biases" Item="UNIT_ASSASSIN_ILLUMINATI_2" Value="50"/>
+		<Row ListType="Illuminati Government Bias" Item="GOVERNMENT_OLIGARCHY" Value="25"/>
+		<Row ListType="Illuminati Constructibles Biases" Item="BUILDING_SECRET_LODGE" Value="200"/>
+		<Row ListType="Illuminati Constructibles Biases" Item="WONDER_EYE_OF_PROVIDENCE" Value="50"/>
+		<Row ListType="Illuminati Tag Biases" Item="GOLD" Value="50"/>
+		<Row ListType="Illuminati Tag Biases" Item="DIPLOMACY" Value="25"/>
+	</AiFavoredItems>
+</Database>

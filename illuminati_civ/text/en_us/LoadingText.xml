@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Database>
+	<EnglishText>
+		<Row Tag="LOC_LOADING_CIV_INTRO_TEXT_ILLUMINATI">
+			<Text>From the shadows, we shape the world. Our knowledge is ancient, our reach is infinite, and our secrets are eternal.</Text>
+		</Row>
+		<Row Tag="LOC_LOADING_INTRO_ILLUMINATI">
+			<Text>The Illuminati rise from the shadows...</Text>
+		</Row>
+		<Row Tag="LOC_LOADING_CIV_TIPS_TEXT_ILLUMINATI">
+			<Text>The Illuminati excel at wealth generation and wonder construction. Use your bonus Gold income and unique Culture Tree to unlock powerful traditions and masteries.</Text>
+		</Row>
+		<Row Tag="LOC_LOADING_INFO_ILLUMINATI_1">
+			<Text>The Illuminati were founded in Ingolstadt, Bavaria in 1776 by Adam Weishaupt, a professor of law who sought to create a society based on reason and enlightenment.</Text>
+		</Row>
+		<Row Tag="LOC_LOADING_INFO_ILLUMINATI_2">
+			<Text>Legend speaks of the Ark of the Covenant being hidden by the Knights Templar after their persecution in 1307, its location known only to a select few initiates.</Text>
+		</Row>
+		<Row Tag="LOC_LOADING_INFO_ILLUMINATI_3">
+			<Text>The Eye of Providence, or All-Seeing Eye, has been used as a symbol of divine omniscience since ancient Egypt, later adopted by various secret societies.</Text>
+		</Row>
+		<Row Tag="LOC_LOADING_INFO_ILLUMINATI_4">
+			<Text>The Knights Templar were warrior monks who protected pilgrims traveling to the Holy Land, amassing great wealth and influence before their sudden dissolution.</Text>
+		</Row>
+		<Row Tag="LOC_LOADING_INFO_ILLUMINATI_5">
+			<Text>Throughout history, shadowy organizations have shaped events from behind the scenes, their true influence known only to those within their inner circles.</Text>
+		</Row>
+	</EnglishText>
+</Database>

@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Database>
+	<EnglishText>
+		<!-- Illuminati Citizen Names - Mix of historical secret society figures and mystery-themed names -->
+		<Row Tag="LOC_CITIZEN_ILLUMINATI_MALE_1"><Text>Adam</Text></Row>
+		<Row Tag="LOC_CITIZEN_ILLUMINATI_MALE_2"><Text>Johann</Text></Row>
+		<Row Tag="LOC_CITIZEN_ILLUMINATI_MALE_3"><Text>Xavier</Text></Row>
+		<Row Tag="LOC_CITIZEN_ILLUMINATI_MALE_4"><Text>Ignatius</Text></Row>
+		<Row Tag="LOC_CITIZEN_ILLUMINATI_MALE_5"><Text>Cornelius</Text></Row>
+		<Row Tag="LOC_CITIZEN_ILLUMINATI_MALE_6"><Text>Marcus</Text></Row>
+		<Row Tag="LOC_CITIZEN_ILLUMINATI_MALE_7"><Text>Lucian</Text></Row>
+		<Row Tag="LOC_CITIZEN_ILLUMINATI_MALE_8"><Text>Ezra</Text></Row>
+		<Row Tag="LOC_CITIZEN_ILLUMINATI_MALE_9"><Text>Solomon</Text></Row>
+		<Row Tag="LOC_CITIZEN_ILLUMINATI_MALE_10"><Text>Thaddeus</Text></Row>
+
+		<Row Tag="LOC_CITIZEN_ILLUMINATI_FEMALE_1"><Text>Sophia</Text></Row>
+		<Row Tag="LOC_CITIZEN_ILLUMINATI_FEMALE_2"><Text>Minerva</Text></Row>
+		<Row Tag="LOC_CITIZEN_ILLUMINATI_FEMALE_3"><Text>Helena</Text></Row>
+		<Row Tag="LOC_CITIZEN_ILLUMINATI_FEMALE_4"><Text>Cassandra</Text></Row>
+		<Row Tag="LOC_CITIZEN_ILLUMINATI_FEMALE_5"><Text>Astrid</Text></Row>
+		<Row Tag="LOC_CITIZEN_ILLUMINATI_FEMALE_6"><Text>Morgana</Text></Row>
+		<Row Tag="LOC_CITIZEN_ILLUMINATI_FEMALE_7"><Text>Seraphina</Text></Row>
+		<Row Tag="LOC_CITIZEN_ILLUMINATI_FEMALE_8"><Text>Isadora</Text></Row>
+		<Row Tag="LOC_CITIZEN_ILLUMINATI_FEMALE_9"><Text>Octavia</Text></Row>
+		<Row Tag="LOC_CITIZEN_ILLUMINATI_FEMALE_10"><Text>Valentina</Text></Row>
+	</EnglishText>
+</Database>

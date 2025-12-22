@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Database>
+	<EnglishText>
+		<!-- Secret Lodge Building -->
+		<Row Tag="LOC_BUILDING_SECRET_LODGE_NAME">
+			<Text>Secret Lodge</Text>
+		</Row>
+		<Row Tag="LOC_BUILDING_SECRET_LODGE_DESCRIPTION">
+			<Text>Illuminati Unique Building. +2 Gold. +1 Culture. Can be built in Towns. Ageless.</Text>
+		</Row>
+		<Row Tag="LOC_BUILDING_SECRET_LODGE_TOOLTIP">
+			<Text>+2 Gold. +1 Culture. Can be built in Towns. Ageless. Forms the Shadow Sanctum unique quarter when built adjacent to a Library.</Text>
+		</Row>
+		<Row Tag="LOC_MOD_SECRET_LODGE_ESPIONAGE_DESCRIPTION">
+			<Text>+10% Espionage success rate</Text>
+		</Row>
+
+		<!-- Shadow Sanctum Quarter -->
+		<Row Tag="LOC_QUARTER_SHADOW_SANCTUM_NAME">
+			<Text>Shadow Sanctum</Text>
+		</Row>
+		<Row Tag="LOC_QUARTER_SHADOW_SANCTUM_DESCRIPTION">
+			<Text>Illuminati Unique Quarter. +1 Production. +1 Resource Capacity.</Text>
+		</Row>
+		<Row Tag="LOC_QUARTER_SHADOW_SANCTUM_TOOLTIP">
+			<Text>Created by building the Secret Lodge and Library in the same district. Grants bonus Production and increased Resource Capacity.</Text>
+		</Row>
+
+	</EnglishText>
+</Database>

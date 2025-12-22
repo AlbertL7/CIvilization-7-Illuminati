@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Database>
+	<Types>
+		<Row Type="CIVILIZATION_ILLUMINATI" Kind="KIND_CIVILIZATION"/>
+		<Row Type="TRAIT_ILLUMINATI" Kind="KIND_TRAIT"/>
+		<Row Type="TRAIT_ILLUMINATI_2" Kind="KIND_TRAIT"/>
+	</Types>
+	<Traits>
+		<Row TraitType="TRAIT_ILLUMINATI" InternalOnly="true"/>
+		<Row TraitType="TRAIT_ILLUMINATI_2" InternalOnly="true"/>
+	</Traits>
+	<LegacyCivilizations>
+		<Row CivilizationType="CIVILIZATION_ILLUMINATI" Name="LOC_CIVILIZATION_ILLUMINATI_NAME" FullName="LOC_CIVILIZATION_ILLUMINATI_FULLNAME" Adjective="LOC_CIVILIZATION_ILLUMINATI_ADJECTIVE" Age="AGE_ANTIQUITY"/>
+	</LegacyCivilizations>
+	<LegacyCivilizationTraits>
+		<Row CivilizationType="CIVILIZATION_ILLUMINATI" TraitType="TRAIT_ILLUMINATI"/>
+	</LegacyCivilizationTraits>
+</Database>

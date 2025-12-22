@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Database>
+	<Leaders>
+	</Leaders>
+	<LeaderItems>
+
+	</LeaderItems>
+	<LeaderTags>
+
+	</LeaderTags>
+	<LeaderQuotes>
+
+	</LeaderQuotes>
+	<LeaderCivilizationBias>
+
+	</LeaderCivilizationBias>
+	<Civilizations>
+		<Row Domain="AntiquityAgeCivilizations" CivilizationType="CIVILIZATION_ILLUMINATI" CivilizationName="LOC_CIVILIZATION_ILLUMINATI_NAME" CivilizationFullName="LOC_CIVILIZATION_ILLUMINATI_FULLNAME" CivilizationDescription="LOC_CIVILIZATION_ILLUMINATI_DESCRIPTION" CivilizationIcon="civ_sym_illuminati.png"/>
+	</Civilizations>
+	<CivilizationItems>
+		<Row CivilizationDomain="AntiquityAgeCivilizations" CivilizationType="CIVILIZATION_ILLUMINATI" Type="TRAIT_ILLUMINATI_ABILITY" Kind="KIND_TRAIT" Name="LOC_TRAIT_ILLUMINATI_ABILITY_NAME" Description="LOC_TRAIT_ILLUMINATI_ABILITY_DESCRIPTION"/>
+		<Row CivilizationDomain="AntiquityAgeCivilizations" CivilizationType="CIVILIZATION_ILLUMINATI" Type="BUILDING_SECRET_LODGE" Kind="KIND_BUILDING" Name="LOC_BUILDING_SECRET_LODGE_NAME" Description="LOC_BUILDING_SECRET_LODGE_DESCRIPTION" Icon="BUILDING_SECRET_LODGE"/>
+		<Row CivilizationDomain="AntiquityAgeCivilizations" CivilizationType="CIVILIZATION_ILLUMINATI" Type="UNIT_KNIGHTS_TEMPLAR" Kind="KIND_UNIT" Name="LOC_UNIT_KNIGHTS_TEMPLAR_NAME" Description="LOC_UNIT_KNIGHTS_TEMPLAR_BASE_DESCRIPTION" Icon="ICON_UNIT_KNIGHTS_TEMPLAR"/>
+		<Row CivilizationDomain="AntiquityAgeCivilizations" CivilizationType="CIVILIZATION_ILLUMINATI" Type="UNIT_ASSASSIN_ILLUMINATI" Kind="KIND_UNIT" Name="LOC_UNIT_ASSASSIN_NAME" Description="LOC_UNIT_ASSASSIN_BASE_DESCRIPTION" Icon="ICON_UNIT_ASSASSIN_ILLUMINATI"/>
+		<Row CivilizationDomain="AntiquityAgeCivilizations" CivilizationType="CIVILIZATION_ILLUMINATI" Type="QUARTER_SHADOW_SANCTUM" Kind="KIND_QUARTER" Name="LOC_QUARTER_SHADOW_SANCTUM_NAME" Description="LOC_QUARTER_SHADOW_SANCTUM_DESCRIPTION" Icon="city_uniquequarter"/>
+	</CivilizationItems>
+	<CivilizationTags>
+		<Row CivilizationDomain="AntiquityAgeCivilizations" CivilizationType="CIVILIZATION_ILLUMINATI" TagType="TAG_TRAIT_CULTURAL"/>
+		<Row CivilizationDomain="AntiquityAgeCivilizations" CivilizationType="CIVILIZATION_ILLUMINATI" TagType="TAG_TRAIT_ECONOMIC"/>
+	</CivilizationTags>
+	<LeaderCivilizationBias>
+		<Row CivilizationDomain="AntiquityAgeCivilizations" CivilizationType="CIVILIZATION_ILLUMINATI" LeaderDomain="StandardLeaders" LeaderType="LEADER_HATSHEPSUT" Bias="3" ReasonType="LOC_UNLOCK_PLAY_AS_HATSHEPSUT_ILLUMINATI_TOOLTIP" ChoiceType="LOC_CREATE_GAME_GEOGRAPHIC_CHOICE" />
+
+	</LeaderCivilizationBias>
+	<CivilizationUnlocks>
+		<Row CivilizationDomain="AntiquityAgeCivilizations" CivilizationType="CIVILIZATION_ILLUMINATI" AgeDomain="StandardAges" AgeType="AGE_EXPLORATION" Type="CIVILIZATION_SPAIN" Kind="KIND_CIVILIZATION" Name="LOC_CIVILIZATION_SPAIN_NAME" Description="LOC_CIVILIZATION_SPAIN_DESCRIPTION" Icon="CIVILIZATION_SPAIN"/>
+
+	</CivilizationUnlocks>
+	<LeaderUnlocks>
+
+	</LeaderUnlocks>
+	<Mementos>
+
+	</Mementos>
+</Database>

@@ -1,0 +1,103 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Database>
+	<Types>
+		<!-- Knights Templar - Elite Heavy Cavalry -->
+		<Row Type="UNIT_KNIGHTS_TEMPLAR" Kind="KIND_UNIT"/>
+		<Row Type="UNIT_KNIGHTS_TEMPLAR_2" Kind="KIND_UNIT"/>
+		<!-- Assassin - Covert Operations Unit -->
+		<Row Type="UNIT_ASSASSIN_ILLUMINATI" Kind="KIND_UNIT"/>
+		<Row Type="UNIT_ASSASSIN_ILLUMINATI_2" Kind="KIND_UNIT"/>
+		<!-- Unique Abilities -->
+		<Row Type="ABILITY_KNIGHTS_TEMPLAR" Kind="KIND_ABILITY"/>
+		<Row Type="ABILITY_ASSASSIN_STRIKE" Kind="KIND_ABILITY"/>
+	</Types>
+	<Units>
+		<!-- Knights Templar: Elite Heavy Cavalry, Guardians of Sacred Relics -->
+		<Row UnitType="UNIT_KNIGHTS_TEMPLAR" Name="LOC_UNIT_KNIGHTS_TEMPLAR_NAME" Description="LOC_UNIT_KNIGHTS_TEMPLAR_DESCRIPTION" Tier="2" Maintenance="2" BaseSightRange="2" BaseMoves="4" UnitMovementClass="UNIT_MOVEMENT_CLASS_MOUNTED" Domain="DOMAIN_LAND" CoreClass="CORE_CLASS_MILITARY" FormationClass="FORMATION_CLASS_LAND_COMBAT" ZoneOfControl="true" TraitType="TRAIT_ILLUMINATI"/>
+		<Row UnitType="UNIT_KNIGHTS_TEMPLAR_2" Name="LOC_UNIT_KNIGHTS_TEMPLAR_NAME" Description="LOC_UNIT_KNIGHTS_TEMPLAR_DESCRIPTION" Tier="3" Maintenance="3" BaseSightRange="2" BaseMoves="4" UnitMovementClass="UNIT_MOVEMENT_CLASS_MOUNTED" Domain="DOMAIN_LAND" CoreClass="CORE_CLASS_MILITARY" FormationClass="FORMATION_CLASS_LAND_COMBAT" ZoneOfControl="true" TraitType="TRAIT_ILLUMINATI_2"/>
+
+		<!-- Assassin: Covert Unit, Scout replacement with combat ability -->
+		<Row UnitType="UNIT_ASSASSIN_ILLUMINATI" Name="LOC_UNIT_ASSASSIN_NAME" Description="LOC_UNIT_ASSASSIN_DESCRIPTION" BaseSightRange="2" BaseMoves="2" UnitMovementClass="UNIT_MOVEMENT_CLASS_RECON" Domain="DOMAIN_LAND" CoreClass="CORE_CLASS_RECON" FormationClass="FORMATION_CLASS_CIVILIAN" ZoneOfControl="false" TraitType="TRAIT_ILLUMINATI"/>
+		<Row UnitType="UNIT_ASSASSIN_ILLUMINATI_2" Name="LOC_UNIT_ASSASSIN_NAME" Description="LOC_UNIT_ASSASSIN_DESCRIPTION" BaseSightRange="3" BaseMoves="3" UnitMovementClass="UNIT_MOVEMENT_CLASS_RECON" Domain="DOMAIN_LAND" CoreClass="CORE_CLASS_RECON" FormationClass="FORMATION_CLASS_CIVILIAN" ZoneOfControl="false" TraitType="TRAIT_ILLUMINATI_2"/>
+	</Units>
+	<Unit_Stats>
+		<!-- Knights Templar Stats - Strong melee heavy cavalry -->
+		<Row UnitType="UNIT_KNIGHTS_TEMPLAR" Combat="30" RangedCombat="0" Bombard="0" Range="0" />
+		<Row UnitType="UNIT_KNIGHTS_TEMPLAR_2" Combat="40" RangedCombat="0" Bombard="0" Range="0"/>
+		<!-- Assassin Stats - Lower base combat but powerful abilities -->
+		<Row UnitType="UNIT_ASSASSIN_ILLUMINATI" Combat="17" RangedCombat="0" Bombard="0" Range="0"/>
+		<Row UnitType="UNIT_ASSASSIN_ILLUMINATI_2" Combat="24" RangedCombat="0" Bombard="0" Range="0"/>
+	</Unit_Stats>
+	<Unit_Costs>
+		<!-- Knights Templar -->
+		<Row UnitType="UNIT_KNIGHTS_TEMPLAR" YieldType="YIELD_PRODUCTION" Cost="100"/>
+		<Row UnitType="UNIT_KNIGHTS_TEMPLAR_2" YieldType="YIELD_PRODUCTION" Cost="140"/>
+		<!-- Assassin -->
+		<Row UnitType="UNIT_ASSASSIN_ILLUMINATI" YieldType="YIELD_PRODUCTION" Cost="70"/>
+		<Row UnitType="UNIT_ASSASSIN_ILLUMINATI_2" YieldType="YIELD_PRODUCTION" Cost="100"/>
+	</Unit_Costs>
+	<UnitUpgrades>
+		<Row Unit="UNIT_KNIGHTS_TEMPLAR" UpgradeUnit="UNIT_KNIGHTS_TEMPLAR_2"/>
+		<Row Unit="UNIT_ASSASSIN_ILLUMINATI" UpgradeUnit="UNIT_ASSASSIN_ILLUMINATI_2"/>
+	</UnitUpgrades>
+	<UnitReplaces>
+		<!-- Knights Templar replaces Horseman -->
+		<Row CivUniqueUnitType="UNIT_KNIGHTS_TEMPLAR" ReplacesUnitType="UNIT_HORSEMAN"/>
+		<Row CivUniqueUnitType="UNIT_KNIGHTS_TEMPLAR_2" ReplacesUnitType="UNIT_HORSEMAN"/>
+		<!-- Assassin replaces Scout -->
+		<Row CivUniqueUnitType="UNIT_ASSASSIN_ILLUMINATI" ReplacesUnitType="UNIT_SCOUT"/>
+		<Row CivUniqueUnitType="UNIT_ASSASSIN_ILLUMINATI_2" ReplacesUnitType="UNIT_SCOUT"/>
+	</UnitReplaces>
+	<Tags>
+		<Row Tag="UNIT_CLASS_KNIGHTS_TEMPLAR" Category="UNIT_CLASS"/>
+		<Row Tag="UNIT_CLASS_ASSASSIN" Category="UNIT_CLASS"/>
+	</Tags>
+	<TypeTags>
+		<!-- Knights Templar Tags -->
+		<Row Type="UNIT_KNIGHTS_TEMPLAR" Tag="UNIT_CLASS_COMBAT"/>
+		<Row Type="UNIT_KNIGHTS_TEMPLAR" Tag="UNIT_CLASS_MOUNTED"/>
+		<Row Type="UNIT_KNIGHTS_TEMPLAR" Tag="UNIT_CLASS_CAVALRY"/>
+		<Row Type="UNIT_KNIGHTS_TEMPLAR" Tag="UNIT_CLASS_KNIGHTS_TEMPLAR"/>
+
+		<Row Type="UNIT_KNIGHTS_TEMPLAR_2" Tag="UNIT_CLASS_COMBAT"/>
+		<Row Type="UNIT_KNIGHTS_TEMPLAR_2" Tag="UNIT_CLASS_MOUNTED"/>
+		<Row Type="UNIT_KNIGHTS_TEMPLAR_2" Tag="UNIT_CLASS_CAVALRY"/>
+		<Row Type="UNIT_KNIGHTS_TEMPLAR_2" Tag="UNIT_CLASS_KNIGHTS_TEMPLAR"/>
+
+		<!-- Assassin Tags - Scout replacement -->
+		<Row Type="UNIT_ASSASSIN_ILLUMINATI" Tag="UNIT_CLASS_NON_COMBAT"/>
+		<Row Type="UNIT_ASSASSIN_ILLUMINATI" Tag="UNIT_CLASS_AUTOEXPLORE"/>
+		<Row Type="UNIT_ASSASSIN_ILLUMINATI" Tag="UNIT_CLASS_RECON"/>
+		<Row Type="UNIT_ASSASSIN_ILLUMINATI" Tag="UNIT_CLASS_RECON_ABILITIES"/>
+		<Row Type="UNIT_ASSASSIN_ILLUMINATI" Tag="UNIT_CLASS_INFLUENCE_INDEPENDENT"/>
+		<Row Type="UNIT_ASSASSIN_ILLUMINATI" Tag="UNIT_CLASS_ASSASSIN"/>
+
+		<Row Type="UNIT_ASSASSIN_ILLUMINATI_2" Tag="UNIT_CLASS_NON_COMBAT"/>
+		<Row Type="UNIT_ASSASSIN_ILLUMINATI_2" Tag="UNIT_CLASS_AUTOEXPLORE"/>
+		<Row Type="UNIT_ASSASSIN_ILLUMINATI_2" Tag="UNIT_CLASS_RECON"/>
+		<Row Type="UNIT_ASSASSIN_ILLUMINATI_2" Tag="UNIT_CLASS_RECON_ABILITIES"/>
+		<Row Type="UNIT_ASSASSIN_ILLUMINATI_2" Tag="UNIT_CLASS_INFLUENCE_INDEPENDENT"/>
+		<Row Type="UNIT_ASSASSIN_ILLUMINATI_2" Tag="UNIT_CLASS_ASSASSIN"/>
+	</TypeTags>
+	<UnitAbilities>
+		<!-- Knights Templar: Holy Crusaders - Bonus vs other civilizations -->
+		<Row UnitAbilityType="ABILITY_KNIGHTS_TEMPLAR" Name="LOC_ABILITY_KNIGHTS_TEMPLAR_NAME" Description="LOC_ABILITY_KNIGHTS_TEMPLAR_DESCRIPTION"/>
+		<!-- Assassin: Shadow Strike - Can eliminate enemy units without declaring war -->
+		<Row UnitAbilityType="ABILITY_ASSASSIN_STRIKE" Name="LOC_ABILITY_ASSASSIN_STRIKE_NAME" Description="LOC_ABILITY_ASSASSIN_STRIKE_DESCRIPTION"/>
+	</UnitAbilities>
+	<UnitAbilityModifiers>
+		<Row UnitAbilityType="ABILITY_KNIGHTS_TEMPLAR" ModifierId="ABILITY_KNIGHTS_TEMPLAR_COMBAT_BONUS"/>
+		<Row UnitAbilityType="ABILITY_ASSASSIN_STRIKE" ModifierId="ABILITY_ASSASSIN_STRIKE_MOD"/>
+		<Row UnitAbilityType="ABILITY_ASSASSIN_STRIKE" ModifierId="ABILITY_ASSASSIN_SEE_THROUGH"/>
+		<Row UnitAbilityType="ABILITY_ASSASSIN_STRIKE" ModifierId="ABILITY_ASSASSIN_AMBUSH"/>
+		<Row UnitAbilityType="ABILITY_ASSASSIN_STRIKE" ModifierId="ABILITY_ASSASSIN_STEALTH_MOVEMENT"/>
+		<Row UnitAbilityType="ABILITY_ASSASSIN_STRIKE" ModifierId="ABILITY_ASSASSIN_DIPLOMATIC_PENALTY"/>
+		<Row UnitAbilityType="ABILITY_ASSASSIN_STRIKE" ModifierId="ABILITY_ASSASSIN_COMMANDER_KILLER"/>
+	</UnitAbilityModifiers>
+	<Unit_Advisories>
+		<Row UnitType="UNIT_KNIGHTS_TEMPLAR" AdvisoryClassType="ADVISORY_CLASS_MILITARY"/>
+		<Row UnitType="UNIT_KNIGHTS_TEMPLAR_2" AdvisoryClassType="ADVISORY_CLASS_MILITARY"/>
+		<Row UnitType="UNIT_ASSASSIN_ILLUMINATI" AdvisoryClassType="ADVISORY_CLASS_EMPIRE_EXPANSION"/>
+		<Row UnitType="UNIT_ASSASSIN_ILLUMINATI_2" AdvisoryClassType="ADVISORY_CLASS_EMPIRE_EXPANSION"/>
+	</Unit_Advisories>
+</Database>

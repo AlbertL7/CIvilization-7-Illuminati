@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Database>
+	<ProgressionTreeNodeUnlocks>
+		<!-- Knights Templar unlocks at Military Training for Illuminati -->
+		<Row ProgressionTreeNodeType="NODE_TECH_AQ_MILITARY_TRAINING" TargetKind="KIND_UNIT" TargetType="UNIT_KNIGHTS_TEMPLAR" UnlockDepth="1" RequiredTraitType="TRAIT_ILLUMINATI"/>
+		<Row ProgressionTreeNodeType="NODE_TECH_AQ_MILITARY_TRAINING" TargetKind="KIND_UNIT" TargetType="UNIT_KNIGHTS_TEMPLAR_2" UnlockDepth="1" RequiredTraitType="TRAIT_ILLUMINATI_2"/>
+	</ProgressionTreeNodeUnlocks>
+</Database>

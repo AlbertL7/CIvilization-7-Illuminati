@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8"?>
+<GameEffects xmlns="GameEffects">
+	<!-- ================================================== -->
+	<!-- ILLUMINATI CIVIC TREE NODE MODIFIERS -->
+	<!-- These are bonuses granted directly by researching civics -->
+	<!-- ================================================== -->
+
+	<!-- THE INITIATION: Entry into the Order -->
+	<!-- Depth 2: +1 Culture in all cities -->
+	<Modifier id="MOD_ILLUMINATI_INITIATION_CULTURE" collection="COLLECTION_PLAYER_CITIES" effect="EFFECT_CITY_ADJUST_YIELD" permanent="true">
+		<Argument name="YieldType">YIELD_CULTURE</Argument>
+		<Argument name="Amount">1</Argument>
+		<String context="Description">LOC_MOD_ILLUMINATI_INITIATION_CULTURE_DESCRIPTION</String>
+	</Modifier>
+
+	<!-- THE HIDDEN HAND: Masters of Wealth and Influence -->
+	<!-- Depth 1: +2 Gold in all cities -->
+	<Modifier id="MOD_ILLUMINATI_HIDDEN_HAND_GOLD" collection="COLLECTION_PLAYER_CITIES" effect="EFFECT_CITY_ADJUST_YIELD" permanent="true">
+		<Argument name="YieldType">YIELD_GOLD</Argument>
+		<Argument name="Amount">2</Argument>
+		<String context="Description">LOC_MOD_ILLUMINATI_HIDDEN_HAND_GOLD_DESCRIPTION</String>
+	</Modifier>
+	<!-- Depth 2: +2 Influence in all cities -->
+	<Modifier id="MOD_ILLUMINATI_HIDDEN_HAND_INFLUENCE" collection="COLLECTION_PLAYER_CITIES" effect="EFFECT_CITY_ADJUST_YIELD" permanent="true">
+		<Argument name="YieldType">YIELD_DIPLOMACY</Argument>
+		<Argument name="Amount">2</Argument>
+		<String context="Description">LOC_MOD_ILLUMINATI_HIDDEN_HAND_INFLUENCE_DESCRIPTION</String>
+	</Modifier>
+
+	<!-- THE ARCANUM: Keepers of Secret Knowledge -->
+	<!-- Depth 1: +2 Science in all cities -->
+	<Modifier id="MOD_ILLUMINATI_ARCANUM_SCIENCE" collection="COLLECTION_PLAYER_CITIES" effect="EFFECT_CITY_ADJUST_YIELD" permanent="true">
+		<Argument name="YieldType">YIELD_SCIENCE</Argument>
+		<Argument name="Amount">2</Argument>
+		<String context="Description">LOC_MOD_ILLUMINATI_ARCANUM_SCIENCE_DESCRIPTION</String>
+	</Modifier>
+	<!-- Depth 2: +2 Science in Towns (stacks with base) -->
+	<Modifier id="MOD_ILLUMINATI_ARCANUM_TOWNS" collection="COLLECTION_PLAYER_CITIES" effect="EFFECT_CITY_ADJUST_YIELD" permanent="true">
+		<SubjectRequirements>
+			<Requirement type="REQUIREMENT_CITY_IS_TOWN"/>
+		</SubjectRequirements>
+		<Argument name="YieldType">YIELD_SCIENCE</Argument>
+		<Argument name="Amount">2</Argument>
+		<String context="Description">LOC_MOD_ILLUMINATI_ARCANUM_TOWNS_DESCRIPTION</String>
+	</Modifier>
+
+	<!-- THE GRAND DESIGN: Ultimate Mastery -->
+	<!-- Depth 1: +1 Tradition Slot -->
+	<Modifier id="MOD_ILLUMINATI_GRAND_DESIGN_TRADITION_SLOT" collection="COLLECTION_OWNER" effect="EFFECT_PLAYER_GRANT_TRADITION_SLOTS" permanent="true">
+		<Argument name="Amount">1</Argument>
+		<String context="Description">LOC_MOD_ILLUMINATI_GRAND_DESIGN_TRADITION_SLOT_DESCRIPTION</String>
+	</Modifier>
+	<!-- NOTE: MOD_AQ_SETTLEMENT_CAP_INCREASE is defined in base game - we just reference it -->
+	<!-- Depth 2: +3 Combat Strength for all units -->
+	<Modifier id="MOD_ILLUMINATI_GRAND_DESIGN_COMBAT" collection="COLLECTION_PLAYER_COMBAT" effect="EFFECT_ADJUST_UNIT_STRENGTH_MODIFIER">
+		<Argument name="Amount">3</Argument>
+		<String context="Description">LOC_MOD_ILLUMINATI_GRAND_DESIGN_COMBAT_DESCRIPTION</String>
+	</Modifier>
+	<!-- Depth 2: +15% Gold towards purchasing (hidden bonus) -->
+	<Modifier id="MOD_ILLUMINATI_GRAND_DESIGN_PURCHASE" collection="COLLECTION_OWNER" effect="EFFECT_ADJUST_PLAYER_OR_CITY_BUILDING_PURCHASE_EFFICIENCY">
+		<Argument name="Percent">15</Argument>
+		<String context="Description">LOC_MOD_ILLUMINATI_GRAND_DESIGN_PURCHASE_DESCRIPTION</String>
+	</Modifier>
+</GameEffects>

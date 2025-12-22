@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Database>
+	<EnglishText>
+		<!-- Knights Templar -->
+		<Row Tag="LOC_UNIT_KNIGHTS_TEMPLAR_NAME">
+			<Text>Knights Templar</Text>
+		</Row>
+		<Row Tag="LOC_UNIT_KNIGHTS_TEMPLAR_BASE_DESCRIPTION">
+			<Text>Illuminati Unique Heavy Cavalry Unit. Replaces Horseman. Unlocks at Military Training. +5 Combat Strength against foreign units.</Text>
+		</Row>
+		<Row Tag="LOC_UNIT_KNIGHTS_TEMPLAR_DESCRIPTION">
+			<Text>Illuminati Unique Heavy Cavalry Unit. Replaces Horseman. Unlocks at Military Training. +5 Combat Strength against foreign units.</Text>
+		</Row>
+
+		<!-- Assassin -->
+		<Row Tag="LOC_UNIT_ASSASSIN_NAME">
+			<Text>Assassin</Text>
+		</Row>
+		<Row Tag="LOC_UNIT_ASSASSIN_BASE_DESCRIPTION">
+			<Text>Illuminati Unique Recon Unit. Replaces Scout. Can see through terrain. Ignores Zone of Control. +3 Combat Strength when attacking. +5 when attacking at full health. +30 vs Commanders. +1 Sight.</Text>
+		</Row>
+		<Row Tag="LOC_UNIT_ASSASSIN_DESCRIPTION">
+			<Text>Illuminati Unique Recon Unit. Replaces Scout. Can see through terrain. Ignores Zone of Control. +3 Combat Strength when attacking. +5 when attacking at full health. +30 vs Commanders. +1 Sight.</Text>
+		</Row>
+
+		<!-- Unit Abilities -->
+		<Row Tag="LOC_ABILITY_KNIGHTS_TEMPLAR_NAME">
+			<Text>Holy Crusaders</Text>
+		</Row>
+		<Row Tag="LOC_ABILITY_KNIGHTS_TEMPLAR_DESCRIPTION">
+			<Text>+5 Combat Strength against units from other civilizations. +3 Flanking bonus.</Text>
+		</Row>
+		<Row Tag="LOC_ABILITY_ASSASSIN_STRIKE_NAME">
+			<Text>Shadow Strike</Text>
+		</Row>
+		<Row Tag="LOC_ABILITY_ASSASSIN_STRIKE_DESCRIPTION">
+			<Text>Can see through terrain features. Ignores Zone of Control. +3 Combat Strength when attacking. +5 Combat Strength when attacking at full health. +30 Combat Strength vs Commanders. +1 Sight Range.</Text>
+		</Row>
+
+	</EnglishText>
+</Database>

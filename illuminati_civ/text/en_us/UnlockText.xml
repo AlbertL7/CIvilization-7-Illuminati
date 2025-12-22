@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Database>
+	<EnglishText>
+		<Row Tag="LOC_UNLOCK_PLAY_AS_HATSHEPSUT_ILLUMINATI_TOOLTIP">
+			<Text>Hatshepsut's diplomatic cunning and mastery of trade networks align well with the Illuminati's shadowy influence.</Text>
+		</Row>
+		<Row Tag="LOC_UNLOCK_PLAY_AS_HARRIET_TUBMAN_ILLUMINATI_TOOLTIP">
+			<Text>Harriet Tubman's expertise in covert operations and underground networks makes her a natural fit for the Illuminati.</Text>
+		</Row>
+	</EnglishText>
+</Database>

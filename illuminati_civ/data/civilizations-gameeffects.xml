@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<GameEffects xmlns="GameEffects">
+	<!-- Civ Standard -->
+	<Modifier id="MOD_CODE_OF_LAWS_REVEAL_CIV_CULTURE_TREE_ILLUMINATI" collection="COLLECTION_OWNER" effect="EFFECT_PLAYER_REVEAL_CULTURE_TREE">
+		<SubjectRequirements>
+			<Requirement type="REQUIREMENT_PLAYER_HAS_CIVILIZATION_OR_LEADER_TRAIT">
+				<Argument name="TraitType">TRAIT_ILLUMINATI</Argument>
+			</Requirement>
+		</SubjectRequirements>
+		<Argument name="ProgressionTreeType">TREE_CIVICS_AQ_ILLUMINATI</Argument>
+		<String context="Description">LOC_MOD_CODE_OF_LAWS_REVEAL_CIV_CULTURE_TREE_ILLUMINATI_DESCRIPTION</String>
+	</Modifier>
+
+	<!-- Illuminati Ability: Gold bonus for cities -->
+	<Modifier id="MOD_ILLUMINATI_EARLY_ESPIONAGE" collection="COLLECTION_PLAYER_CITIES" effect="EFFECT_CITY_ADJUST_YIELD">
+		<SubjectRequirements>
+			<Requirement type="REQUIREMENT_PLAYER_HAS_CIVILIZATION_OR_LEADER_TRAIT">
+				<Argument name="TraitType">TRAIT_ILLUMINATI</Argument>
+			</Requirement>
+		</SubjectRequirements>
+		<Argument name="YieldType">YIELD_GOLD</Argument>
+		<Argument name="Amount">2</Argument>
+		<String context="Preview">LOC_MOD_ILLUMINATI_EARLY_ESPIONAGE_DESCRIPTION</String>
+	</Modifier>
+
+	<!-- Bonus Gold for trade -->
+	<Modifier id="MOD_ILLUMINATI_GOLD_THEFT_BONUS" collection="COLLECTION_PLAYER_CITIES" effect="EFFECT_CITY_ADJUST_YIELD">
+		<SubjectRequirements>
+			<Requirement type="REQUIREMENT_PLAYER_HAS_CIVILIZATION_OR_LEADER_TRAIT">
+				<Argument name="TraitType">TRAIT_ILLUMINATI</Argument>
+			</Requirement>
+		</SubjectRequirements>
+		<Argument name="YieldType">YIELD_GOLD</Argument>
+		<Argument name="Amount">1</Argument>
+		<String context="Preview">LOC_MOD_ILLUMINATI_GOLD_THEFT_DESCRIPTION</String>
+	</Modifier>
+
+	<!-- Shadow Network: +2 Influence in all cities -->
+	<Modifier id="MOD_ILLUMINATI_SHADOW_NETWORK" collection="COLLECTION_PLAYER_CITIES" effect="EFFECT_CITY_ADJUST_YIELD">
+		<SubjectRequirements>
+			<Requirement type="REQUIREMENT_PLAYER_HAS_CIVILIZATION_OR_LEADER_TRAIT">
+				<Argument name="TraitType">TRAIT_ILLUMINATI</Argument>
+			</Requirement>
+		</SubjectRequirements>
+		<Argument name="YieldType">YIELD_DIPLOMACY</Argument>
+		<Argument name="Amount">2</Argument>
+		<String context="Preview">LOC_MOD_ILLUMINATI_SHADOW_NETWORK_DESCRIPTION</String>
+	</Modifier>
+
+	<!-- Placeholder for additional abilities -->
+	<Modifier id="MOD_ILLUMINATI_REDUCED_DETECTION" collection="COLLECTION_OWNER" effect="EFFECT_DO_NOTHING">
+		<String context="Preview">LOC_MOD_ILLUMINATI_REDUCED_DETECTION_DESCRIPTION</String>
+	</Modifier>
+
+	<Modifier id="MOD_ILLUMINATI_DEFLECT_PENALTY" collection="COLLECTION_OWNER" effect="EFFECT_DO_NOTHING">
+		<String context="Preview">LOC_MOD_ILLUMINATI_DEFLECT_PENALTY_DESCRIPTION</String>
+	</Modifier>
+</GameEffects>

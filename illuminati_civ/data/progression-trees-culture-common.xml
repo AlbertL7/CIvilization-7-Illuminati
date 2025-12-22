@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Database>
+	<ProgressionTreeNodeUnlocks>
+		<!-- Reveal Illuminati unique culture tree when researching Chiefdom -->
+		<Row ProgressionTreeNodeType="NODE_CIVIC_AQ_MAIN_CHIEFDOM" TargetKind="KIND_MODIFIER" TargetType="MOD_CODE_OF_LAWS_REVEAL_CIV_CULTURE_TREE_ILLUMINATI" UnlockDepth="1" Hidden="true"/>
+	</ProgressionTreeNodeUnlocks>
+</Database>

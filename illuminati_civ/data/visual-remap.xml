@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Database>
+	<VisualRemaps>
+		<!-- Visual remappings for Illuminati units to use existing game models -->
+		<Row FromType="UNIT_KNIGHTS_TEMPLAR" ToType="UNIT_HORSEMAN"/>
+		<Row FromType="UNIT_KNIGHTS_TEMPLAR_2" ToType="UNIT_KNIGHT"/>
+		<Row FromType="UNIT_ASSASSIN_ILLUMINATI" ToType="UNIT_SCOUT"/>
+		<Row FromType="UNIT_ASSASSIN_ILLUMINATI_2" ToType="UNIT_SCOUT"/>
+	</VisualRemaps>
+</Database>

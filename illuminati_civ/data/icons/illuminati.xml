@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<Database>
+	<IconDefinitions>
+		<!-- Civ Symbol -->
+		<Row>
+			<ID>CIVILIZATION_ILLUMINATI</ID>
+			<Path>fs://game/illuminati_civ/icons/civ_sym_illuminati</Path>
+			<Context>DEFAULT</Context>
+		</Row>
+		<Row>
+			<ID>ICON_CIVILIZATION_ILLUMINATI</ID>
+			<Path>fs://game/illuminati_civ/icons/civ_sym_illuminati</Path>
+		</Row>
+		<!-- Loadscreen Backgrounds -->
+		<Row>
+			<ID>CIVILIZATION_ILLUMINATI</ID>
+			<Context>BACKGROUND</Context>
+			<Path>fs://game/illuminati_civ/icons/lsbg_illuminati_1080</Path>
+			<IconSize>1080</IconSize>
+		</Row>
+		<Row>
+			<ID>CIVILIZATION_ILLUMINATI</ID>
+			<Context>BACKGROUND</Context>
+			<Path>fs://game/illuminati_civ/icons/lsbg_illuminati_720</Path>
+			<IconSize>720</IconSize>
+		</Row>
+		<!-- Culture -->
+		<Row>
+			<ID>cult_illuminati</ID>
+			<Path>fs://game/illuminati_civ/icons/cult_illuminati.png</Path>
+		</Row>
+		<!-- Wonder -->
+		<Row>
+			<ID>WONDER_EYE_OF_PROVIDENCE</ID>
+			<Path>fs://game/illuminati_civ/icons/wondericon_eye_of_providence.png</Path>
+		</Row>
+		<!-- Building -->
+		<Row>
+			<ID>BUILDING_SECRET_LODGE</ID>
+			<Path>fs://game/illuminati_civ/icons/buildicon_secret_lodge.png</Path>
+			<Context>DEFAULT</Context>
+		</Row>
+		<!-- Quarter -->
+		<Row>
+			<ID>QUARTER_SHADOW_SANCTUM</ID>
+			<Path>fs://game/illuminati_civ/icons/shadow_sanctum.png</Path>
+			<Context>DEFAULT</Context>
+		</Row>
+		<Row>
+			<ID>ICON_QUARTER_SHADOW_SANCTUM</ID>
+			<Path>fs://game/illuminati_civ/icons/shadow_sanctum.png</Path>
+			<Context>DEFAULT</Context>
+		</Row>
+		<!-- Units -->
+		<Row>
+			<ID>UNIT_KNIGHTS_TEMPLAR</ID>
+			<Path>fs://game/illuminati_civ/icons/unitflag_knights_templar.png</Path>
+			<Context>DEFAULT</Context>
+		</Row>
+		<Row>
+			<ID>UNIT_KNIGHTS_TEMPLAR_2</ID>
+			<Path>fs://game/illuminati_civ/icons/unitflag_knights_templar.png</Path>
+			<Context>DEFAULT</Context>
+		</Row>
+		<Row>
+			<ID>ICON_UNIT_KNIGHTS_TEMPLAR</ID>
+			<Path>fs://game/illuminati_civ/icons/unitflag_knights_templar.png</Path>
+			<Context>DEFAULT</Context>
+		</Row>
+		<Row>
+			<ID>UNIT_ASSASSIN_ILLUMINATI</ID>
+			<Path>fs://game/illuminati_civ/icons/unitflag_assassin.png</Path>
+			<Context>DEFAULT</Context>
+		</Row>
+		<Row>
+			<ID>UNIT_ASSASSIN_ILLUMINATI_2</ID>
+			<Path>fs://game/illuminati_civ/icons/unitflag_assassin.png</Path>
+			<Context>DEFAULT</Context>
+		</Row>
+		<Row>
+			<ID>ICON_UNIT_ASSASSIN</ID>
+			<Path>fs://game/illuminati_civ/icons/unitflag_assassin.png</Path>
+			<Context>DEFAULT</Context>
+		</Row>
+	</IconDefinitions>
+</Database>

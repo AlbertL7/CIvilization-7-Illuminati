@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Database>
+	<Types>
+		<Row Type="WONDER_EYE_OF_PROVIDENCE" Kind="KIND_CONSTRUCTIBLE"/>
+		<Row Type="ABILITY_EYE_OF_PROVIDENCE" Kind="KIND_ABILITY"/>
+	</Types>
+	<!-- Eye of Providence Wonder -->
+	<TypeQuotes>
+		<Row Type="WONDER_EYE_OF_PROVIDENCE" Quote="LOC_QUOTE_WONDER_EYE_OF_PROVIDENCE" QuoteAuthor="LOC_QUOTE_AUTHOR_WONDER_EYE_OF_PROVIDENCE" QuoteAudio="VO_Quote_Eye_Of_Providence"/>
+	</TypeQuotes>
+	<Constructibles>
+		<Row ConstructibleType="WONDER_EYE_OF_PROVIDENCE" Name="LOC_WONDER_EYE_OF_PROVIDENCE_NAME" Description="LOC_WONDER_EYE_OF_PROVIDENCE_DESCRIPTION" Tooltip="LOC_WONDER_EYE_OF_PROVIDENCE_TOOLTIP" ConstructibleClass="WONDER" Cost="350" Population="0" ImmuneDamage="true" Age="AGE_ANTIQUITY" RequiresUnlock="true" />
+	</Constructibles>
+	<Wonders>
+		<Row ConstructibleType="WONDER_EYE_OF_PROVIDENCE" MaxWorldInstances="1" />
+	</Wonders>
+	<Constructible_ValidDistricts>
+		<Row ConstructibleType="WONDER_EYE_OF_PROVIDENCE" DistrictType="DISTRICT_WONDER"/>
+	</Constructible_ValidDistricts>
+	<Constructible_YieldChanges>
+		<Row ConstructibleType="WONDER_EYE_OF_PROVIDENCE" YieldType="YIELD_CULTURE" YieldChange="2"/>
+		<Row ConstructibleType="WONDER_EYE_OF_PROVIDENCE" YieldType="YIELD_GOLD" YieldChange="2"/>
+		<Row ConstructibleType="WONDER_EYE_OF_PROVIDENCE" YieldType="YIELD_DIPLOMACY" YieldChange="3"/>
+	</Constructible_YieldChanges>
+	<ConstructibleModifiers>
+		<Row ConstructibleType="WONDER_EYE_OF_PROVIDENCE" ModifierId="WONDER_EYE_OF_PROVIDENCE_INFLUENCE"/>
+		<Row ConstructibleType="WONDER_EYE_OF_PROVIDENCE" ModifierId="WONDER_EYE_OF_PROVIDENCE_ESPIONAGE"/>
+		<Row ConstructibleType="WONDER_EYE_OF_PROVIDENCE" ModifierId="WONDER_EYE_OF_PROVIDENCE_VISIBILITY"/>
+		<Row ConstructibleType="WONDER_EYE_OF_PROVIDENCE" ModifierId="WONDER_EYE_OF_PROVIDENCE_GREAT_WORK_SLOT"/>
+	</ConstructibleModifiers>
+	<Constructible_Advisories>
+		<Row ConstructibleType="WONDER_EYE_OF_PROVIDENCE" AdvisoryClassType="ADVISORY_CLASS_CULTURE"/>
+	</Constructible_Advisories>
+	<!-- UNITS -->
+	<UnitAbilities>
+		<Row UnitAbilityType="ABILITY_EYE_OF_PROVIDENCE" Name="LOC_ABILITY_EYE_OF_PROVIDENCE_NAME" Inactive="true"/>
+	</UnitAbilities>
+	<UnitAbilityModifiers>
+		<Row UnitAbilityType="ABILITY_EYE_OF_PROVIDENCE" ModifierId="ABILITY_EYE_OF_PROVIDENCE_MOD"/>
+	</UnitAbilityModifiers>
+</Database>

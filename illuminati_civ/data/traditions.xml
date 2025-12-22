@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Database>
+	<Types>
+		<!-- Illuminati Traditions - 4 traditions matching the 4 civics -->
+		<Row Type="TRADITION_ILLUMINATI_VEIL_OF_SECRECY" Kind="KIND_TRADITION"/>
+		<Row Type="TRADITION_ILLUMINATI_WEB_OF_INFLUENCE" Kind="KIND_TRADITION"/>
+		<Row Type="TRADITION_ILLUMINATI_FORBIDDEN_KNOWLEDGE" Kind="KIND_TRADITION"/>
+		<Row Type="TRADITION_ILLUMINATI_ASCENSION" Kind="KIND_TRADITION"/>
+	</Types>
+	<Traditions>
+		<!-- The Initiation unlocks: Veil of Secrecy - hiding in plain sight -->
+		<Row TraditionType="TRADITION_ILLUMINATI_VEIL_OF_SECRECY" Name="LOC_TRADITION_ILLUMINATI_VEIL_OF_SECRECY_NAME" Description="LOC_TRADITION_ILLUMINATI_VEIL_OF_SECRECY_DESCRIPTION" TraitType="TRAIT_ILLUMINATI" AgeType="AGE_ANTIQUITY"/>
+		<!-- The Hidden Hand unlocks: Web of Influence - economic/diplomatic control -->
+		<Row TraditionType="TRADITION_ILLUMINATI_WEB_OF_INFLUENCE" Name="LOC_TRADITION_ILLUMINATI_WEB_OF_INFLUENCE_NAME" Description="LOC_TRADITION_ILLUMINATI_WEB_OF_INFLUENCE_DESCRIPTION" TraitType="TRAIT_ILLUMINATI" AgeType="AGE_ANTIQUITY"/>
+		<!-- The Arcanum unlocks: Forbidden Knowledge - scientific mastery -->
+		<Row TraditionType="TRADITION_ILLUMINATI_FORBIDDEN_KNOWLEDGE" Name="LOC_TRADITION_ILLUMINATI_FORBIDDEN_KNOWLEDGE_NAME" Description="LOC_TRADITION_ILLUMINATI_FORBIDDEN_KNOWLEDGE_DESCRIPTION" TraitType="TRAIT_ILLUMINATI" AgeType="AGE_ANTIQUITY"/>
+		<!-- The Grand Design unlocks: Ascension - ultimate mastery -->
+		<Row TraditionType="TRADITION_ILLUMINATI_ASCENSION" Name="LOC_TRADITION_ILLUMINATI_ASCENSION_NAME" Description="LOC_TRADITION_ILLUMINATI_ASCENSION_DESCRIPTION" TraitType="TRAIT_ILLUMINATI" AgeType="AGE_ANTIQUITY"/>
+	</Traditions>
+	<TraditionModifiers>
+		<!-- Veil of Secrecy: +2 Culture on Gold Buildings -->
+		<Row TraditionType="TRADITION_ILLUMINATI_VEIL_OF_SECRECY" ModifierId="TRADITION_ILLUMINATI_VEIL_OF_SECRECY_MOD"/>
+		<!-- Web of Influence: +2 Influence and +2 Gold per Trade Route -->
+		<Row TraditionType="TRADITION_ILLUMINATI_WEB_OF_INFLUENCE" ModifierId="TRADITION_ILLUMINATI_WEB_OF_INFLUENCE_MOD_DIPLOMACY"/>
+		<Row TraditionType="TRADITION_ILLUMINATI_WEB_OF_INFLUENCE" ModifierId="TRADITION_ILLUMINATI_WEB_OF_INFLUENCE_MOD_GOLD"/>
+		<!-- Forbidden Knowledge: +1 Science from Specialists, +3 Science in Towns -->
+		<Row TraditionType="TRADITION_ILLUMINATI_FORBIDDEN_KNOWLEDGE" ModifierId="TRADITION_ILLUMINATI_FORBIDDEN_KNOWLEDGE_MOD_SPECIALISTS"/>
+		<Row TraditionType="TRADITION_ILLUMINATI_FORBIDDEN_KNOWLEDGE" ModifierId="TRADITION_ILLUMINATI_FORBIDDEN_KNOWLEDGE_MOD_TOWNS"/>
+		<!-- Ascension: +1 Gold and +1 Influence per Resource, +5 Combat Strength in enemy territory -->
+		<Row TraditionType="TRADITION_ILLUMINATI_ASCENSION" ModifierId="TRADITION_ILLUMINATI_ASCENSION_MOD_GOLD"/>
+		<Row TraditionType="TRADITION_ILLUMINATI_ASCENSION" ModifierId="TRADITION_ILLUMINATI_ASCENSION_MOD_DIPLOMACY"/>
+		<Row TraditionType="TRADITION_ILLUMINATI_ASCENSION" ModifierId="TRADITION_ILLUMINATI_ASCENSION_MOD_COMBAT"/>
+	</TraditionModifiers>
+</Database>

@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Database>
+	<EnglishText>
+		<!-- Illuminati Secret Cities - Named after historical locations associated with secret societies and mystery -->
+		<Row Tag="LOC_CITY_NAME_ILLUMINATI1">
+			<Text>Ingolstadt</Text>
+		</Row>
+		<Row Tag="LOC_CITY_NAME_ILLUMINATI2">
+			<Text>Akhetaten</Text>
+		</Row>
+		<Row Tag="LOC_CITY_NAME_ILLUMINATI3">
+			<Text>Rennes-le-Chateau</Text>
+		</Row>
+		<Row Tag="LOC_CITY_NAME_ILLUMINATI4">
+			<Text>Rosslyn</Text>
+		</Row>
+		<Row Tag="LOC_CITY_NAME_ILLUMINATI5">
+			<Text>Tomar</Text>
+		</Row>
+		<Row Tag="LOC_CITY_NAME_ILLUMINATI6">
+			<Text>Mont Saint-Michel</Text>
+		</Row>
+		<Row Tag="LOC_CITY_NAME_ILLUMINATI7">
+			<Text>Alamut</Text>
+		</Row>
+		<Row Tag="LOC_CITY_NAME_ILLUMINATI8">
+			<Text>Heliopolis</Text>
+		</Row>
+		<Row Tag="LOC_CITY_NAME_ILLUMINATI9">
+			<Text>Ephesus</Text>
+		</Row>
+		<Row Tag="LOC_CITY_NAME_ILLUMINATI10">
+			<Text>Delphi</Text>
+		</Row>
+		<Row Tag="LOC_CITY_NAME_ILLUMINATI11">
+			<Text>Eleusis</Text>
+		</Row>
+		<Row Tag="LOC_CITY_NAME_ILLUMINATI12">
+			<Text>Chartres</Text>
+		</Row>
+		<Row Tag="LOC_CITY_NAME_ILLUMINATI13">
+			<Text>Glastonbury</Text>
+		</Row>
+		<Row Tag="LOC_CITY_NAME_ILLUMINATI14">
+			<Text>Oak Island</Text>
+		</Row>
+		<Row Tag="LOC_CITY_NAME_ILLUMINATI15">
+			<Text>Baalbek</Text>
+		</Row>
+	</EnglishText>
+</Database>

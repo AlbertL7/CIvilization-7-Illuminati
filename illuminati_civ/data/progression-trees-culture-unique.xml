@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Database>
+	<Types>
+		<!-- Illuminati Unique Culture Tree -->
+		<Row Type="TREE_CIVICS_AQ_ILLUMINATI" Kind="KIND_TREE"/>
+		<!-- 4 Civic Nodes (matching base game pattern) -->
+		<Row Type="NODE_CIVIC_AQ_ILLUMINATI_THE_INITIATION" Kind="KIND_TREE_NODE"/>
+		<Row Type="NODE_CIVIC_AQ_ILLUMINATI_THE_HIDDEN_HAND" Kind="KIND_TREE_NODE"/>
+		<Row Type="NODE_CIVIC_AQ_ILLUMINATI_THE_ARCANUM" Kind="KIND_TREE_NODE"/>
+		<Row Type="NODE_CIVIC_AQ_ILLUMINATI_THE_GRAND_DESIGN" Kind="KIND_TREE_NODE"/>
+	</Types>
+	<TypeQuotes>
+		<Row Type="NODE_CIVIC_AQ_ILLUMINATI_THE_INITIATION" Quote="LOC_CIVIC_ILLUMINATI_THE_INITIATION_QUOTE" QuoteAuthor="LOC_CIVIC_ILLUMINATI_THE_INITIATION_QUOTE_AUTHOR" QuoteAudio="VO_Quote_PeriplusErythraeanSea" />
+		<Row Type="NODE_CIVIC_AQ_ILLUMINATI_THE_HIDDEN_HAND" Quote="LOC_CIVIC_ILLUMINATI_THE_HIDDEN_HAND_QUOTE" QuoteAuthor="LOC_CIVIC_ILLUMINATI_THE_HIDDEN_HAND_QUOTE_AUTHOR" QuoteAudio="VO_Quote_PeriplusErythraeanSea" />
+		<Row Type="NODE_CIVIC_AQ_ILLUMINATI_THE_ARCANUM" Quote="LOC_CIVIC_ILLUMINATI_THE_ARCANUM_QUOTE" QuoteAuthor="LOC_CIVIC_ILLUMINATI_THE_ARCANUM_QUOTE_AUTHOR" QuoteAudio="VO_Quote_MonumentumAdulitanum"/>
+		<Row Type="NODE_CIVIC_AQ_ILLUMINATI_THE_GRAND_DESIGN" Quote="LOC_CIVIC_ILLUMINATI_THE_GRAND_DESIGN_QUOTE" QuoteAuthor="LOC_CIVIC_ILLUMINATI_THE_GRAND_DESIGN_QUOTE_AUTHOR" QuoteAudio="VO_Quote_MonumentumAdulitanum"/>
+	</TypeQuotes>
+	<ProgressionTrees>
+		<Row ProgressionTreeType="TREE_CIVICS_AQ_ILLUMINATI" AgeType="AGE_ANTIQUITY" SystemType="SYSTEM_CULTURE" Name="LOC_TREE_CIVICS_AQ_ILLUMINATI_NAME"/>
+	</ProgressionTrees>
+	<ProgressionTreeNodes>
+		<!-- The Initiation: Entry into the Order - unlocks buildings and first tradition -->
+		<Row ProgressionTreeNodeType="NODE_CIVIC_AQ_ILLUMINATI_THE_INITIATION" ProgressionTree="TREE_CIVICS_AQ_ILLUMINATI" Cost="150" Name="LOC_CIVIC_ILLUMINATI_THE_INITIATION_NAME" IconString="cult_illuminati" />
+		<!-- The Hidden Hand: Path of Influence and Wealth -->
+		<Row ProgressionTreeNodeType="NODE_CIVIC_AQ_ILLUMINATI_THE_HIDDEN_HAND" ProgressionTree="TREE_CIVICS_AQ_ILLUMINATI" Cost="250" Name="LOC_CIVIC_ILLUMINATI_THE_HIDDEN_HAND_NAME" IconString="cult_illuminati" />
+		<!-- The Arcanum: Path of Secret Knowledge -->
+		<Row ProgressionTreeNodeType="NODE_CIVIC_AQ_ILLUMINATI_THE_ARCANUM" ProgressionTree="TREE_CIVICS_AQ_ILLUMINATI" Cost="250" Name="LOC_CIVIC_ILLUMINATI_THE_ARCANUM_NAME" IconString="cult_illuminati" />
+		<!-- The Grand Design: Ultimate Mastery - requires both paths -->
+		<Row ProgressionTreeNodeType="NODE_CIVIC_AQ_ILLUMINATI_THE_GRAND_DESIGN" ProgressionTree="TREE_CIVICS_AQ_ILLUMINATI" Cost="400" Name="LOC_CIVIC_ILLUMINATI_THE_GRAND_DESIGN_NAME" IconString="cult_illuminati" />
+	</ProgressionTreeNodes>
+	<ProgressionTreeNodeUnlocks>
+		<!-- THE INITIATION: Entry into the secret order -->
+		<!-- Unlocks: Secret Lodge building, Eye of Providence wonder, first tradition -->
+		<Row ProgressionTreeNodeType="NODE_CIVIC_AQ_ILLUMINATI_THE_INITIATION" TargetKind="KIND_CONSTRUCTIBLE" TargetType="BUILDING_SECRET_LODGE" UnlockDepth="1"/>
+		<Row ProgressionTreeNodeType="NODE_CIVIC_AQ_ILLUMINATI_THE_INITIATION" TargetKind="KIND_CONSTRUCTIBLE" TargetType="WONDER_EYE_OF_PROVIDENCE" UnlockDepth="1" AIIgnoreUnlockValue="true"/>
+		<Row ProgressionTreeNodeType="NODE_CIVIC_AQ_ILLUMINATI_THE_INITIATION" TargetKind="KIND_TRADITION" TargetType="TRADITION_ILLUMINATI_VEIL_OF_SECRECY" UnlockDepth="1"/>
+		<Row ProgressionTreeNodeType="NODE_CIVIC_AQ_ILLUMINATI_THE_INITIATION" TargetKind="KIND_MODIFIER" TargetType="MOD_ILLUMINATI_INITIATION_CULTURE" UnlockDepth="2"/>
+
+		<!-- THE HIDDEN HAND: Masters of trade, wealth, and political manipulation -->
+		<Row ProgressionTreeNodeType="NODE_CIVIC_AQ_ILLUMINATI_THE_HIDDEN_HAND" TargetKind="KIND_TRADITION" TargetType="TRADITION_ILLUMINATI_WEB_OF_INFLUENCE" UnlockDepth="1"/>
+		<Row ProgressionTreeNodeType="NODE_CIVIC_AQ_ILLUMINATI_THE_HIDDEN_HAND" TargetKind="KIND_MODIFIER" TargetType="MOD_ILLUMINATI_HIDDEN_HAND_GOLD" UnlockDepth="1"/>
+		<Row ProgressionTreeNodeType="NODE_CIVIC_AQ_ILLUMINATI_THE_HIDDEN_HAND" TargetKind="KIND_MODIFIER" TargetType="MOD_ILLUMINATI_HIDDEN_HAND_INFLUENCE" UnlockDepth="2"/>
+
+		<!-- THE ARCANUM: Keepers of forbidden knowledge and arcane sciences -->
+		<Row ProgressionTreeNodeType="NODE_CIVIC_AQ_ILLUMINATI_THE_ARCANUM" TargetKind="KIND_TRADITION" TargetType="TRADITION_ILLUMINATI_FORBIDDEN_KNOWLEDGE" UnlockDepth="1"/>
+		<Row ProgressionTreeNodeType="NODE_CIVIC_AQ_ILLUMINATI_THE_ARCANUM" TargetKind="KIND_MODIFIER" TargetType="MOD_ILLUMINATI_ARCANUM_SCIENCE" UnlockDepth="1"/>
+		<Row ProgressionTreeNodeType="NODE_CIVIC_AQ_ILLUMINATI_THE_ARCANUM" TargetKind="KIND_MODIFIER" TargetType="MOD_ILLUMINATI_ARCANUM_TOWNS" UnlockDepth="2"/>
+
+		<!-- THE GRAND DESIGN: Ultimate mastery - control of all aspects -->
+		<Row ProgressionTreeNodeType="NODE_CIVIC_AQ_ILLUMINATI_THE_GRAND_DESIGN" TargetKind="KIND_TRADITION" TargetType="TRADITION_ILLUMINATI_ASCENSION" UnlockDepth="1"/>
+		<Row ProgressionTreeNodeType="NODE_CIVIC_AQ_ILLUMINATI_THE_GRAND_DESIGN" TargetKind="KIND_MODIFIER" TargetType="MOD_ILLUMINATI_GRAND_DESIGN_TRADITION_SLOT" UnlockDepth="1"/>
+		<Row ProgressionTreeNodeType="NODE_CIVIC_AQ_ILLUMINATI_THE_GRAND_DESIGN" TargetKind="KIND_MODIFIER" TargetType="MOD_AQ_SETTLEMENT_CAP_INCREASE" UnlockDepth="1"/>
+		<Row ProgressionTreeNodeType="NODE_CIVIC_AQ_ILLUMINATI_THE_GRAND_DESIGN" TargetKind="KIND_MODIFIER" TargetType="MOD_ILLUMINATI_GRAND_DESIGN_COMBAT" UnlockDepth="2"/>
+		<Row ProgressionTreeNodeType="NODE_CIVIC_AQ_ILLUMINATI_THE_GRAND_DESIGN" TargetKind="KIND_MODIFIER" TargetType="MOD_ILLUMINATI_GRAND_DESIGN_PURCHASE" UnlockDepth="2" Hidden="true"/>
+	</ProgressionTreeNodeUnlocks>
+	<ProgressionTreePrereqs>
+		<!-- Diamond structure: Initiation → (Hidden Hand OR Arcanum) → Grand Design requires BOTH -->
+		<Row Node="NODE_CIVIC_AQ_ILLUMINATI_THE_HIDDEN_HAND" PrereqNode="NODE_CIVIC_AQ_ILLUMINATI_THE_INITIATION"/>
+		<Row Node="NODE_CIVIC_AQ_ILLUMINATI_THE_ARCANUM" PrereqNode="NODE_CIVIC_AQ_ILLUMINATI_THE_INITIATION"/>
+		<Row Node="NODE_CIVIC_AQ_ILLUMINATI_THE_GRAND_DESIGN" PrereqNode="NODE_CIVIC_AQ_ILLUMINATI_THE_HIDDEN_HAND"/>
+		<Row Node="NODE_CIVIC_AQ_ILLUMINATI_THE_GRAND_DESIGN" PrereqNode="NODE_CIVIC_AQ_ILLUMINATI_THE_ARCANUM"/>
+	</ProgressionTreePrereqs>
+	<ProgressionTree_Advisories>
+		<Row ProgressionTreeNodeType="NODE_CIVIC_AQ_ILLUMINATI_THE_INITIATION" AdvisoryClassType="ADVISORY_CLASS_CULTURE"/>
+		<Row ProgressionTreeNodeType="NODE_CIVIC_AQ_ILLUMINATI_THE_INITIATION" AdvisoryClassType="ADVISORY_CLASS_ECONOMIC"/>
+		<Row ProgressionTreeNodeType="NODE_CIVIC_AQ_ILLUMINATI_THE_HIDDEN_HAND" AdvisoryClassType="ADVISORY_CLASS_ECONOMIC"/>
+		<Row ProgressionTreeNodeType="NODE_CIVIC_AQ_ILLUMINATI_THE_HIDDEN_HAND" AdvisoryClassType="ADVISORY_CLASS_DIPLOMACY"/>
+		<Row ProgressionTreeNodeType="NODE_CIVIC_AQ_ILLUMINATI_THE_ARCANUM" AdvisoryClassType="ADVISORY_CLASS_SCIENCE"/>
+		<Row ProgressionTreeNodeType="NODE_CIVIC_AQ_ILLUMINATI_THE_ARCANUM" AdvisoryClassType="ADVISORY_CLASS_CULTURE"/>
+		<Row ProgressionTreeNodeType="NODE_CIVIC_AQ_ILLUMINATI_THE_GRAND_DESIGN" AdvisoryClassType="ADVISORY_CLASS_MILITARY"/>
+		<Row ProgressionTreeNodeType="NODE_CIVIC_AQ_ILLUMINATI_THE_GRAND_DESIGN" AdvisoryClassType="ADVISORY_CLASS_DIPLOMACY"/>
+	</ProgressionTree_Advisories>
+</Database>

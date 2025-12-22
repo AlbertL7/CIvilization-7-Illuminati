@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="utf-8"?>
+<GameEffects xmlns="GameEffects">
+	<!-- Knights Templar Abilities -->
+
+	<!-- Holy Crusaders: Combat bonus against units from other civilizations -->
+	<Modifier id="ABILITY_KNIGHTS_TEMPLAR_COMBAT_BONUS" collection="COLLECTION_UNIT_COMBAT" effect="EFFECT_ADJUST_UNIT_STRENGTH_MODIFIER">
+		<SubjectRequirements>
+			<Requirement type="REQUIREMENT_OPPONENT_IS_FOREIGN">
+			</Requirement>
+		</SubjectRequirements>
+		<Argument name="Amount">5</Argument>
+		<String context="Preview">+5 Combat Strength against foreign units</String>
+	</Modifier>
+
+	<!-- Assassin Abilities -->
+
+	<!-- Shadow Strike: Combat bonus when attacking -->
+	<Modifier id="ABILITY_ASSASSIN_STRIKE_MOD" collection="COLLECTION_UNIT_COMBAT" effect="EFFECT_ADJUST_UNIT_STRENGTH_MODIFIER">
+		<SubjectRequirements>
+			<Requirement type="REQUIREMENT_UNIT_IS_ATTACKING">
+			</Requirement>
+		</SubjectRequirements>
+		<Argument name="Amount">3</Argument>
+		<String context="Preview">+3 Combat when attacking</String>
+	</Modifier>
+
+	<!-- Assassin: Bonus damage at full health -->
+	<Modifier id="ABILITY_ASSASSIN_AMBUSH" collection="COLLECTION_UNIT_COMBAT" effect="EFFECT_ADJUST_UNIT_STRENGTH_MODIFIER">
+		<SubjectRequirements>
+			<Requirement type="REQUIREMENT_UNIT_IS_FULL_HEALTH"/>
+			<Requirement type="REQUIREMENT_UNIT_IS_ATTACKING"/>
+		</SubjectRequirements>
+		<Argument name="Amount">5</Argument>
+		<String context="Preview">+5 Combat Strength when attacking at full health</String>
+	</Modifier>
+
+	<!-- Assassin: Ignores Zone of Control -->
+	<Modifier id="ABILITY_ASSASSIN_STEALTH_MOVEMENT" collection="COLLECTION_OWNER" effect="EFFECT_ADJUST_UNIT_IGNORE_ZOC">
+		<Argument name="Ignore">true</Argument>
+		<String context="Preview">Ignores enemy Zone of Control</String>
+	</Modifier>
+
+	<!-- Assassin: Can see through features (forests, etc) -->
+	<Modifier id="ABILITY_ASSASSIN_SEE_THROUGH" collection="COLLECTION_OWNER" effect="EFFECT_ADJUST_UNIT_SEE_THROUGH_FEATURES">
+		<Argument name="CanSee">true</Argument>
+		<String context="Preview">Can see through forests and other features</String>
+	</Modifier>
+
+	<!-- Assassin: Extra sight range for scouting -->
+	<Modifier id="ABILITY_ASSASSIN_DIPLOMATIC_PENALTY" collection="COLLECTION_OWNER" effect="EFFECT_ADJUST_UNIT_SIGHT">
+		<Argument name="Amount">1</Argument>
+		<String context="Preview">+1 Sight Range</String>
+	</Modifier>
+
+	<!-- Assassin: Commander Killer - Massive bonus against commanders -->
+	<Modifier id="ABILITY_ASSASSIN_COMMANDER_KILLER" collection="COLLECTION_UNIT_COMBAT" effect="EFFECT_ADJUST_UNIT_STRENGTH_MODIFIER">
+		<SubjectRequirements>
+			<Requirement type="REQUIREMENT_UNIT_IS_ATTACKING"/>
+			<Requirement type="REQUIREMENT_OPPONENT_UNIT_TAG_MATCHES">
+				<Argument name="Tag">UNIT_CLASS_ARMY_COMMANDER</Argument>
+			</Requirement>
+		</SubjectRequirements>
+		<Argument name="Amount">30</Argument>
+		<String context="Preview">+30 Combat Strength when attacking Commanders</String>
+	</Modifier>
+</GameEffects>

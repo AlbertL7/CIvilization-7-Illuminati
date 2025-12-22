@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<GameEffects xmlns="GameEffects">
+	<!-- Eye of Providence Wonder Effects -->
+	<!-- Base yields on wonder tile: +2 Culture, +2 Gold, +3 Influence -->
+
+	<!-- Bonus Influence generation in all cities -->
+	<Modifier id="WONDER_EYE_OF_PROVIDENCE_INFLUENCE" collection="COLLECTION_PLAYER_CITIES" effect="EFFECT_CITY_ADJUST_YIELD">
+		<Argument name="YieldType">YIELD_DIPLOMACY</Argument>
+		<Argument name="Amount">1</Argument>
+		<String context="Preview">+1 Influence in all cities</String>
+	</Modifier>
+
+	<!-- Bonus Culture in all cities -->
+	<Modifier id="WONDER_EYE_OF_PROVIDENCE_ESPIONAGE" collection="COLLECTION_PLAYER_CITIES" effect="EFFECT_CITY_ADJUST_YIELD">
+		<Argument name="YieldType">YIELD_CULTURE</Argument>
+		<Argument name="Amount">1</Argument>
+		<String context="Preview">+1 Culture in all cities</String>
+	</Modifier>
+
+	<!-- Bonus Gold in all cities -->
+	<Modifier id="WONDER_EYE_OF_PROVIDENCE_VISIBILITY" collection="COLLECTION_PLAYER_CITIES" effect="EFFECT_CITY_ADJUST_YIELD">
+		<Argument name="YieldType">YIELD_GOLD</Argument>
+		<Argument name="Amount">1</Argument>
+		<String context="Preview">+1 Gold in all cities</String>
+	</Modifier>
+
+	<!-- Placeholder for great work slots -->
+	<Modifier id="WONDER_EYE_OF_PROVIDENCE_GREAT_WORK_SLOT" collection="COLLECTION_OWNER" effect="EFFECT_DO_NOTHING">
+		<String context="Preview">The All-Seeing Eye watches over your civilization</String>
+	</Modifier>
+
+	<!-- Placeholder for unit combat bonus -->
+	<Modifier id="ABILITY_EYE_OF_PROVIDENCE_MOD" collection="COLLECTION_OWNER" effect="EFFECT_DO_NOTHING">
+		<String context="Preview">Divine protection</String>
+	</Modifier>
+</GameEffects>

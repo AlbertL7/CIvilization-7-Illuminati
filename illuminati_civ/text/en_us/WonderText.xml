@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Database>
+	<EnglishText>
+		<Row Tag="LOC_WONDER_EYE_OF_PROVIDENCE_NAME">
+			<Text>Eye of Providence</Text>
+		</Row>
+		<Row Tag="LOC_WONDER_EYE_OF_PROVIDENCE_DESCRIPTION">
+			<Text>A massive pyramid crowned with the All-Seeing Eye. +2 Culture. +2 Gold. +3 Influence. +1 Culture, Gold, and Influence in all cities. Effects persist through all ages.</Text>
+		</Row>
+		<Row Tag="LOC_WONDER_EYE_OF_PROVIDENCE_TOOLTIP">
+			<Text>+2[icon:YIELD_CULTURE] Culture. +2[icon:YIELD_GOLD] Gold. +3[icon:YIELD_DIPLOMACY] Influence. +1[icon:YIELD_CULTURE] Culture, +1[icon:YIELD_GOLD] Gold, and +1[icon:YIELD_DIPLOMACY] Influence in all cities. Effects persist through all ages.</Text>
+		</Row>
+		<Row Tag="LOC_QUOTE_WONDER_EYE_OF_PROVIDENCE">
+			<Text>The eye that sees all things, knows all things. From the apex of power, the threads of fate are woven.</Text>
+		</Row>
+		<Row Tag="LOC_QUOTE_AUTHOR_WONDER_EYE_OF_PROVIDENCE">
+			<Text>The Forbidden Codex</Text>
+		</Row>
+		<Row Tag="LOC_WONDER_EYE_OF_PROVIDENCE_INFLUENCE_DESCRIPTION">
+			<Text>+3 Influence per turn</Text>
+		</Row>
+		<Row Tag="LOC_WONDER_EYE_OF_PROVIDENCE_ESPIONAGE_DESCRIPTION">
+			<Text>+25% Espionage success rate</Text>
+		</Row>
+		<Row Tag="LOC_WONDER_EYE_OF_PROVIDENCE_VISIBILITY_DESCRIPTION">
+			<Text>+2 City visibility range</Text>
+		</Row>
+		<Row Tag="LOC_WONDER_EYE_OF_PROVIDENCE_GREAT_WORK_SLOT_DESCRIPTION">
+			<Text>2 Relic slots for ancient artifacts</Text>
+		</Row>
+		<Row Tag="LOC_ABILITY_EYE_OF_PROVIDENCE_NAME">
+			<Text>Blessing of the Eye</Text>
+		</Row>
+		<Row Tag="LOC_ABILITY_EYE_OF_PROVIDENCE_MOD_DESCRIPTION">
+			<Text>+2 Combat Strength to all units</Text>
+		</Row>
+	</EnglishText>
+</Database>
