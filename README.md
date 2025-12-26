@@ -148,7 +148,7 @@
   ---
   Credits
 
-  Created by: HOUSE-OF-L
+  Created by: BlueSynAck
 
   Special Thanks:
   - The Civilization modding community
