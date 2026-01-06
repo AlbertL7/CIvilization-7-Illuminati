@@ -26,9 +26,8 @@
 		<!-- Forbidden Knowledge: +1 Science from Specialists, +3 Science in Towns -->
 		<Row TraditionType="TRADITION_ILLUMINATI_FORBIDDEN_KNOWLEDGE" ModifierId="TRADITION_ILLUMINATI_FORBIDDEN_KNOWLEDGE_MOD_SPECIALISTS"/>
 		<Row TraditionType="TRADITION_ILLUMINATI_FORBIDDEN_KNOWLEDGE" ModifierId="TRADITION_ILLUMINATI_FORBIDDEN_KNOWLEDGE_MOD_TOWNS"/>
-		<!-- Ascension: +1 Gold and +1 Influence per Resource, +5 Combat Strength in enemy territory -->
+		<!-- Ascension: +1 Gold and +1 Influence per Resource -->
 		<Row TraditionType="TRADITION_ILLUMINATI_ASCENSION" ModifierId="TRADITION_ILLUMINATI_ASCENSION_MOD_GOLD"/>
 		<Row TraditionType="TRADITION_ILLUMINATI_ASCENSION" ModifierId="TRADITION_ILLUMINATI_ASCENSION_MOD_DIPLOMACY"/>
-		<Row TraditionType="TRADITION_ILLUMINATI_ASCENSION" ModifierId="TRADITION_ILLUMINATI_ASCENSION_MOD_COMBAT"/>
 	</TraditionModifiers>
 </Database>

@@ -1,66 +1,121 @@
 <?xml version="1.0" encoding="utf-8"?>
 <GameEffects xmlns="GameEffects">
-	<!-- Knights Templar Abilities -->
+	<!-- ============================================== -->
+	<!-- ABILITY GRANT MODIFIERS - Assign abilities to units via tags -->
+	<!-- ============================================== -->
 
-	<!-- Holy Crusaders: Combat bonus against units from other civilizations -->
-	<Modifier id="ABILITY_KNIGHTS_TEMPLAR_COMBAT_BONUS" collection="COLLECTION_UNIT_COMBAT" effect="EFFECT_ADJUST_UNIT_STRENGTH_MODIFIER">
+	<!-- Grant Oathbound Order ability to Knights Templar units -->
+	<Modifier id="MOD_GRANT_KNIGHTS_TEMPLAR_ABILITY" collection="COLLECTION_PLAYER_UNITS" effect="EFFECT_UNIT_ADJUST_ABILITY">
 		<SubjectRequirements>
-			<Requirement type="REQUIREMENT_OPPONENT_IS_FOREIGN">
+			<Requirement type="REQUIREMENT_UNIT_TAG_MATCHES">
+				<Argument name="Tag">UNIT_CLASS_KNIGHTS_TEMPLAR</Argument>
 			</Requirement>
 		</SubjectRequirements>
-		<Argument name="Amount">5</Argument>
-		<String context="Preview">+5 Combat Strength against foreign units</String>
+		<Argument name="AbilityType">ABILITY_KNIGHTS_TEMPLAR</Argument>
 	</Modifier>
 
-	<!-- Assassin Abilities -->
-
-	<!-- Shadow Strike: Combat bonus when attacking -->
-	<Modifier id="ABILITY_ASSASSIN_STRIKE_MOD" collection="COLLECTION_UNIT_COMBAT" effect="EFFECT_ADJUST_UNIT_STRENGTH_MODIFIER">
+	<!-- Grant Tier 1 Assassin ability (First Strike + Ignore ZoC) -->
+	<Modifier id="MOD_GRANT_ASSASSIN_TIER1_ABILITY" collection="COLLECTION_PLAYER_UNITS" effect="EFFECT_UNIT_ADJUST_ABILITY">
 		<SubjectRequirements>
-			<Requirement type="REQUIREMENT_UNIT_IS_ATTACKING">
+			<Requirement type="REQUIREMENT_UNIT_TAG_MATCHES">
+				<Argument name="Tag">UNIT_CLASS_ASSASSIN_TIER1</Argument>
 			</Requirement>
+		</SubjectRequirements>
+		<Argument name="AbilityType">ABILITY_ASSASSIN_TIER1</Argument>
+	</Modifier>
+
+	<!-- Grant Tier 2 Assassin ability (First Strike + Ignore ZoC + Flanking) -->
+	<Modifier id="MOD_GRANT_ASSASSIN_TIER2_ABILITY" collection="COLLECTION_PLAYER_UNITS" effect="EFFECT_UNIT_ADJUST_ABILITY">
+		<SubjectRequirements>
+			<Requirement type="REQUIREMENT_UNIT_TAG_MATCHES">
+				<Argument name="Tag">UNIT_CLASS_ASSASSIN_TIER2</Argument>
+			</Requirement>
+		</SubjectRequirements>
+		<Argument name="AbilityType">ABILITY_ASSASSIN_TIER2</Argument>
+	</Modifier>
+
+	<!-- Grant Sicarii ability (First Strike + Ignore ZoC + Flanking +4 + Poison) -->
+	<Modifier id="MOD_GRANT_SICARII_ABILITY" collection="COLLECTION_PLAYER_UNITS" effect="EFFECT_UNIT_ADJUST_ABILITY">
+		<SubjectRequirements>
+			<Requirement type="REQUIREMENT_UNIT_TAG_MATCHES">
+				<Argument name="Tag">UNIT_CLASS_SICARII</Argument>
+			</Requirement>
+		</SubjectRequirements>
+		<Argument name="AbilityType">ABILITY_SICARII_STRIKE</Argument>
+	</Modifier>
+
+	<!-- ============================================== -->
+	<!-- ABILITY EFFECT MODIFIERS - Define what abilities do -->
+	<!-- ============================================== -->
+
+	<!-- ============================================== -->
+	<!-- KNIGHTS TEMPLAR ABILITIES - Oathbound Order -->
+	<!-- ============================================== -->
+
+	<!-- Oathbound Order: +3 Combat Strength in friendly territory -->
+	<Modifier id="ABILITY_KNIGHTS_TEMPLAR_FRIENDLY_COMBAT" collection="COLLECTION_UNIT_COMBAT" effect="EFFECT_ADJUST_UNIT_STRENGTH_MODIFIER">
+		<SubjectRequirements>
+			<Requirement type="REQUIREMENT_PLOT_IS_FRIENDLY_TERRITORY"/>
 		</SubjectRequirements>
 		<Argument name="Amount">3</Argument>
-		<String context="Preview">+3 Combat when attacking</String>
+		<String context="Preview">+3 [icon:YIELD_COMBAT] Combat Strength in friendly territory</String>
 	</Modifier>
 
-	<!-- Assassin: Bonus damage at full health -->
-	<Modifier id="ABILITY_ASSASSIN_AMBUSH" collection="COLLECTION_UNIT_COMBAT" effect="EFFECT_ADJUST_UNIT_STRENGTH_MODIFIER">
+	<!-- Knights Templar Maintenance Reduction: -50% maintenance for Knights Templar units -->
+	<!-- This modifier is granted via TRAIT_ILLUMINATI_ABILITY (player-level effect) -->
+	<Modifier id="MOD_KNIGHTS_TEMPLAR_MAINTENANCE" collection="COLLECTION_OWNER" effect="EFFECT_PLAYER_ADJUST_UNIT_MAINTENANCE_EFFICIENCY">
+		<Argument name="Percent">-50</Argument>
+		<Argument name="UnitTag">UNIT_CLASS_KNIGHTS_TEMPLAR</Argument>
+		<String context="Preview">-50% [icon:YIELD_GOLD] Maintenance for Knights Templar</String>
+	</Modifier>
+
+	<!-- ============================================== -->
+	<!-- ASSASSIN/SICARII SHARED MODIFIERS -->
+	<!-- ============================================== -->
+
+	<!-- First Strike: +5 Combat Strength when at full HP -->
+	<Modifier id="ABILITY_FIRST_STRIKE" collection="COLLECTION_UNIT_COMBAT" effect="EFFECT_ADJUST_UNIT_STRENGTH_MODIFIER">
 		<SubjectRequirements>
 			<Requirement type="REQUIREMENT_UNIT_IS_FULL_HEALTH"/>
-			<Requirement type="REQUIREMENT_UNIT_IS_ATTACKING"/>
 		</SubjectRequirements>
 		<Argument name="Amount">5</Argument>
-		<String context="Preview">+5 Combat Strength when attacking at full health</String>
+		<String context="Preview">+5 [icon:YIELD_COMBAT] Combat Strength at full health</String>
 	</Modifier>
 
-	<!-- Assassin: Ignores Zone of Control -->
-	<Modifier id="ABILITY_ASSASSIN_STEALTH_MOVEMENT" collection="COLLECTION_OWNER" effect="EFFECT_ADJUST_UNIT_IGNORE_ZOC">
+	<!-- Ignore Zone of Control -->
+	<Modifier id="ABILITY_IGNORE_ZOC" collection="COLLECTION_OWNER" effect="EFFECT_ADJUST_UNIT_IGNORE_ZOC">
 		<Argument name="Ignore">true</Argument>
 		<String context="Preview">Ignores enemy Zone of Control</String>
 	</Modifier>
 
-	<!-- Assassin: Can see through features (forests, etc) -->
-	<Modifier id="ABILITY_ASSASSIN_SEE_THROUGH" collection="COLLECTION_OWNER" effect="EFFECT_ADJUST_UNIT_SEE_THROUGH_FEATURES">
-		<Argument name="CanSee">true</Argument>
-		<String context="Preview">Can see through forests and other features</String>
-	</Modifier>
-
-	<!-- Assassin: Extra sight range for scouting -->
-	<Modifier id="ABILITY_ASSASSIN_DIPLOMATIC_PENALTY" collection="COLLECTION_OWNER" effect="EFFECT_ADJUST_UNIT_SIGHT">
-		<Argument name="Amount">1</Argument>
-		<String context="Preview">+1 Sight Range</String>
-	</Modifier>
-
-	<!-- Assassin: Commander Killer - Massive bonus against commanders -->
-	<Modifier id="ABILITY_ASSASSIN_COMMANDER_KILLER" collection="COLLECTION_UNIT_COMBAT" effect="EFFECT_ADJUST_UNIT_STRENGTH_MODIFIER">
+	<!-- Flanking Bonus: +3 Combat when flanking (Tier 2 Assassin) -->
+	<Modifier id="ABILITY_ASSASSIN_FLANKING" collection="COLLECTION_UNIT_COMBAT" effect="EFFECT_ADJUST_UNIT_STRENGTH_MODIFIER">
 		<SubjectRequirements>
-			<Requirement type="REQUIREMENT_UNIT_IS_ATTACKING"/>
-			<Requirement type="REQUIREMENT_OPPONENT_UNIT_TAG_MATCHES">
-				<Argument name="Tag">UNIT_CLASS_ARMY_COMMANDER</Argument>
-			</Requirement>
+			<Requirement type="REQUIREMENT_UNIT_IS_FLANKING"/>
 		</SubjectRequirements>
-		<Argument name="Amount">30</Argument>
-		<String context="Preview">+30 Combat Strength when attacking Commanders</String>
+		<Argument name="Amount">3</Argument>
+		<String context="Preview">+3 [icon:YIELD_COMBAT] Combat Strength when flanking</String>
+	</Modifier>
+
+	<!-- ============================================== -->
+	<!-- SICARII EXCLUSIVE MODIFIERS -->
+	<!-- ============================================== -->
+
+	<!-- Sicarii Flanking Bonus: +4 Combat when flanking (upgraded from +3) -->
+	<Modifier id="ABILITY_SICARII_FLANKING" collection="COLLECTION_UNIT_COMBAT" effect="EFFECT_ADJUST_UNIT_STRENGTH_MODIFIER">
+		<SubjectRequirements>
+			<Requirement type="REQUIREMENT_UNIT_IS_FLANKING"/>
+		</SubjectRequirements>
+		<Argument name="Amount">4</Argument>
+		<String context="Preview">+4 [icon:YIELD_COMBAT] Combat Strength when flanking</String>
+	</Modifier>
+
+	<!-- Poison: +3 Combat Strength against damaged enemies -->
+	<Modifier id="ABILITY_POISON" collection="COLLECTION_UNIT_COMBAT" effect="EFFECT_ADJUST_UNIT_STRENGTH_MODIFIER">
+		<SubjectRequirements>
+			<Requirement type="REQUIREMENT_OPPONENT_IS_DAMAGED"/>
+		</SubjectRequirements>
+		<Argument name="Amount">3</Argument>
+		<String context="Preview">+3 [icon:YIELD_COMBAT] Combat Strength vs damaged units</String>
 	</Modifier>
 </GameEffects>

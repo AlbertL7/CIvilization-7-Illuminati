@@ -20,10 +20,10 @@
 		<Argument name="Amount">2</Argument>
 		<String context="Description">LOC_MOD_ILLUMINATI_HIDDEN_HAND_GOLD_DESCRIPTION</String>
 	</Modifier>
-	<!-- Depth 2: +2 Influence in all cities -->
+	<!-- Depth 2: +1 Influence in all cities -->
 	<Modifier id="MOD_ILLUMINATI_HIDDEN_HAND_INFLUENCE" collection="COLLECTION_PLAYER_CITIES" effect="EFFECT_CITY_ADJUST_YIELD" permanent="true">
 		<Argument name="YieldType">YIELD_DIPLOMACY</Argument>
-		<Argument name="Amount">2</Argument>
+		<Argument name="Amount">1</Argument>
 		<String context="Description">LOC_MOD_ILLUMINATI_HIDDEN_HAND_INFLUENCE_DESCRIPTION</String>
 	</Modifier>
 
@@ -56,9 +56,9 @@
 		<Argument name="Amount">3</Argument>
 		<String context="Description">LOC_MOD_ILLUMINATI_GRAND_DESIGN_COMBAT_DESCRIPTION</String>
 	</Modifier>
-	<!-- Depth 2: +15% Gold towards purchasing (hidden bonus) -->
+	<!-- Depth 2: +10% Gold towards purchasing (hidden bonus) -->
 	<Modifier id="MOD_ILLUMINATI_GRAND_DESIGN_PURCHASE" collection="COLLECTION_OWNER" effect="EFFECT_ADJUST_PLAYER_OR_CITY_BUILDING_PURCHASE_EFFICIENCY">
-		<Argument name="Percent">15</Argument>
+		<Argument name="Percent">10</Argument>
 		<String context="Description">LOC_MOD_ILLUMINATI_GRAND_DESIGN_PURCHASE_DESCRIPTION</String>
 	</Modifier>
 </GameEffects>

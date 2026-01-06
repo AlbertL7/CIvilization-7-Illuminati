@@ -22,17 +22,16 @@
 		<!-- The Initiation: Entry into the Order - unlocks buildings and first tradition -->
 		<Row ProgressionTreeNodeType="NODE_CIVIC_AQ_ILLUMINATI_THE_INITIATION" ProgressionTree="TREE_CIVICS_AQ_ILLUMINATI" Cost="150" Name="LOC_CIVIC_ILLUMINATI_THE_INITIATION_NAME" IconString="cult_illuminati" />
 		<!-- The Hidden Hand: Path of Influence and Wealth -->
-		<Row ProgressionTreeNodeType="NODE_CIVIC_AQ_ILLUMINATI_THE_HIDDEN_HAND" ProgressionTree="TREE_CIVICS_AQ_ILLUMINATI" Cost="250" Name="LOC_CIVIC_ILLUMINATI_THE_HIDDEN_HAND_NAME" IconString="cult_illuminati" />
+		<Row ProgressionTreeNodeType="NODE_CIVIC_AQ_ILLUMINATI_THE_HIDDEN_HAND" ProgressionTree="TREE_CIVICS_AQ_ILLUMINATI" Cost="250" Name="LOC_CIVIC_ILLUMINATI_THE_HIDDEN_HAND_NAME" IconString="hidden_hand_illuminati" />
 		<!-- The Arcanum: Path of Secret Knowledge -->
-		<Row ProgressionTreeNodeType="NODE_CIVIC_AQ_ILLUMINATI_THE_ARCANUM" ProgressionTree="TREE_CIVICS_AQ_ILLUMINATI" Cost="250" Name="LOC_CIVIC_ILLUMINATI_THE_ARCANUM_NAME" IconString="cult_illuminati" />
+		<Row ProgressionTreeNodeType="NODE_CIVIC_AQ_ILLUMINATI_THE_ARCANUM" ProgressionTree="TREE_CIVICS_AQ_ILLUMINATI" Cost="250" Name="LOC_CIVIC_ILLUMINATI_THE_ARCANUM_NAME" IconString="the_arcanum_illuminati" />
 		<!-- The Grand Design: Ultimate Mastery - requires both paths -->
-		<Row ProgressionTreeNodeType="NODE_CIVIC_AQ_ILLUMINATI_THE_GRAND_DESIGN" ProgressionTree="TREE_CIVICS_AQ_ILLUMINATI" Cost="400" Name="LOC_CIVIC_ILLUMINATI_THE_GRAND_DESIGN_NAME" IconString="cult_illuminati" />
+		<Row ProgressionTreeNodeType="NODE_CIVIC_AQ_ILLUMINATI_THE_GRAND_DESIGN" ProgressionTree="TREE_CIVICS_AQ_ILLUMINATI" Cost="400" Name="LOC_CIVIC_ILLUMINATI_THE_GRAND_DESIGN_NAME" IconString="grand_design_illuminati" />
 	</ProgressionTreeNodes>
 	<ProgressionTreeNodeUnlocks>
 		<!-- THE INITIATION: Entry into the secret order -->
-		<!-- Unlocks: Secret Lodge building, Eye of Providence wonder, first tradition -->
+		<!-- Unlocks: Secret Lodge building, first tradition -->
 		<Row ProgressionTreeNodeType="NODE_CIVIC_AQ_ILLUMINATI_THE_INITIATION" TargetKind="KIND_CONSTRUCTIBLE" TargetType="BUILDING_SECRET_LODGE" UnlockDepth="1"/>
-		<Row ProgressionTreeNodeType="NODE_CIVIC_AQ_ILLUMINATI_THE_INITIATION" TargetKind="KIND_CONSTRUCTIBLE" TargetType="WONDER_EYE_OF_PROVIDENCE" UnlockDepth="1" AIIgnoreUnlockValue="true"/>
 		<Row ProgressionTreeNodeType="NODE_CIVIC_AQ_ILLUMINATI_THE_INITIATION" TargetKind="KIND_TRADITION" TargetType="TRADITION_ILLUMINATI_VEIL_OF_SECRECY" UnlockDepth="1"/>
 		<Row ProgressionTreeNodeType="NODE_CIVIC_AQ_ILLUMINATI_THE_INITIATION" TargetKind="KIND_MODIFIER" TargetType="MOD_ILLUMINATI_INITIATION_CULTURE" UnlockDepth="2"/>
 
@@ -47,10 +46,10 @@
 		<Row ProgressionTreeNodeType="NODE_CIVIC_AQ_ILLUMINATI_THE_ARCANUM" TargetKind="KIND_MODIFIER" TargetType="MOD_ILLUMINATI_ARCANUM_TOWNS" UnlockDepth="2"/>
 
 		<!-- THE GRAND DESIGN: Ultimate mastery - control of all aspects -->
+		<!-- Unlocks: Eye of Providence wonder, Ascension tradition, +1 Tradition slot -->
+		<Row ProgressionTreeNodeType="NODE_CIVIC_AQ_ILLUMINATI_THE_GRAND_DESIGN" TargetKind="KIND_CONSTRUCTIBLE" TargetType="WONDER_EYE_OF_PROVIDENCE" UnlockDepth="1" AIIgnoreUnlockValue="true"/>
 		<Row ProgressionTreeNodeType="NODE_CIVIC_AQ_ILLUMINATI_THE_GRAND_DESIGN" TargetKind="KIND_TRADITION" TargetType="TRADITION_ILLUMINATI_ASCENSION" UnlockDepth="1"/>
 		<Row ProgressionTreeNodeType="NODE_CIVIC_AQ_ILLUMINATI_THE_GRAND_DESIGN" TargetKind="KIND_MODIFIER" TargetType="MOD_ILLUMINATI_GRAND_DESIGN_TRADITION_SLOT" UnlockDepth="1"/>
-		<Row ProgressionTreeNodeType="NODE_CIVIC_AQ_ILLUMINATI_THE_GRAND_DESIGN" TargetKind="KIND_MODIFIER" TargetType="MOD_AQ_SETTLEMENT_CAP_INCREASE" UnlockDepth="1"/>
-		<Row ProgressionTreeNodeType="NODE_CIVIC_AQ_ILLUMINATI_THE_GRAND_DESIGN" TargetKind="KIND_MODIFIER" TargetType="MOD_ILLUMINATI_GRAND_DESIGN_COMBAT" UnlockDepth="2"/>
 		<Row ProgressionTreeNodeType="NODE_CIVIC_AQ_ILLUMINATI_THE_GRAND_DESIGN" TargetKind="KIND_MODIFIER" TargetType="MOD_ILLUMINATI_GRAND_DESIGN_PURCHASE" UnlockDepth="2" Hidden="true"/>
 	</ProgressionTreeNodeUnlocks>
 	<ProgressionTreePrereqs>

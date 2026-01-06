@@ -10,7 +10,7 @@
 		</Row>
 
 		<Row Tag="LOC_CIVILIZATION_ILLUMINATI_DESCRIPTION">
-			<Text>A secret society of immense power and influence, the Illuminati operate from the shadows. Keepers of ancient relics including the legendary Ark of the Covenant.</Text>
+			<Text>A secret society of immense power and influence, the Illuminati operate from the shadows. Keepers of ancient relics such as the legendary Ark of the Covenant.</Text>
 		</Row>
 
 		<Row Tag="LOC_MOD_CODE_OF_LAWS_REVEAL_CIV_CULTURE_TREE_ILLUMINATI_DESCRIPTION">
@@ -28,27 +28,27 @@
 			<Text>Keepers of the Ark</Text>
 		</Row>
 		<Row Tag="LOC_TRAIT_ILLUMINATI_ABILITY_DESCRIPTION">
-			<Text>[LIST][LI][B]+3[icon:YIELD_GOLD] Gold[/B] in all cities.[LI][B]+2[icon:YIELD_DIPLOMACY] Influence[/B] in all cities (Shadow Network).[LI]Unique Culture Tree: [B]Illuminati Traditions[/B] with powerful bonuses.[LI]Unique Wonder: [B]Eye of Providence[/B] (+2 Culture, +2 Gold, +3 Influence).[LI]Unique Building: [B]Secret Lodge[/B] (+2 Gold, +1 Culture).[LI]Unique Units: [B]Knights Templar[/B] (elite cavalry) and [B]Assassin[/B] (17 Combat, +5 at full health, +30 vs Commanders).[/LIST]</Text>
+			<Text>The Illuminati wield ancient power from the shadows.[N][N]• [B]Shadow Treasury[/B]: +3 [icon:YIELD_GOLD] Gold in all Cities[N]• [B]Shadow Network[/B]: +2 [icon:YIELD_DIPLOMACY] Influence in all Cities[N]• [B]Unique Culture Tree[/B]: Illuminati Traditions[N]• [B]Unique Wonder[/B]: Eye of Providence[N]• [B]Unique Building[/B]: Secret Lodge[N]• [B]Unique Units[/B]: Knights Templar, Assassin, Sicarii</Text>
 		</Row>
 
 		<!-- Modifier Descriptions -->
 		<Row Tag="LOC_MOD_ILLUMINATI_EARLY_ESPIONAGE_DESCRIPTION">
-			<Text>+2 Gold in all cities</Text>
+			<Text>• [B]Shadow Treasury[/B]: +2 [icon:YIELD_GOLD] Gold in all Cities</Text>
 		</Row>
 		<Row Tag="LOC_MOD_ILLUMINATI_GOLD_THEFT_DESCRIPTION">
-			<Text>+1 Gold in all cities</Text>
+			<Text>• [B]Shadow Treasury[/B]: +1 [icon:YIELD_GOLD] Gold in all Cities</Text>
 		</Row>
 		<Row Tag="LOC_MOD_ILLUMINATI_INFLUENCE_THEFT_DESCRIPTION">
-			<Text>+1 Influence from successful espionage</Text>
+			<Text>• [B]Espionage[/B]: +1 [icon:YIELD_DIPLOMACY] Influence from successful operations</Text>
 		</Row>
 		<Row Tag="LOC_MOD_ILLUMINATI_SHADOW_NETWORK_DESCRIPTION">
-			<Text>+2 Influence in all cities (Shadow Network)</Text>
+			<Text>• [B]Shadow Network[/B]: +2 [icon:YIELD_DIPLOMACY] Influence in all Cities</Text>
 		</Row>
 		<Row Tag="LOC_MOD_ILLUMINATI_REDUCED_DETECTION_DESCRIPTION">
-			<Text>Illuminati shadow networks</Text>
+			<Text>• [B]Hidden Operations[/B]: Illuminati shadow networks</Text>
 		</Row>
 		<Row Tag="LOC_MOD_ILLUMINATI_DEFLECT_PENALTY_DESCRIPTION">
-			<Text>Illuminati deflection tactics</Text>
+			<Text>• [B]Deflection[/B]: Illuminati deflection tactics</Text>
 		</Row>
 
 	</EnglishText>

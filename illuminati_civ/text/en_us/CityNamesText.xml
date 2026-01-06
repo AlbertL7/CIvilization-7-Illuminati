@@ -1,51 +1,81 @@
 <?xml version="1.0" encoding="utf-8"?>
 <Database>
 	<EnglishText>
-		<!-- Illuminati Secret Cities - Named after historical locations associated with secret societies and mystery -->
+		<!-- Illuminati Secret Cities - Alternating Historical and Latin/Occult names -->
 		<Row Tag="LOC_CITY_NAME_ILLUMINATI1">
 			<Text>Ingolstadt</Text>
 		</Row>
 		<Row Tag="LOC_CITY_NAME_ILLUMINATI2">
-			<Text>Akhetaten</Text>
+			<Text>Novus Ordo</Text>
 		</Row>
 		<Row Tag="LOC_CITY_NAME_ILLUMINATI3">
-			<Text>Rennes-le-Chateau</Text>
-		</Row>
-		<Row Tag="LOC_CITY_NAME_ILLUMINATI4">
-			<Text>Rosslyn</Text>
-		</Row>
-		<Row Tag="LOC_CITY_NAME_ILLUMINATI5">
 			<Text>Tomar</Text>
 		</Row>
+		<Row Tag="LOC_CITY_NAME_ILLUMINATI4">
+			<Text>Arcanum</Text>
+		</Row>
+		<Row Tag="LOC_CITY_NAME_ILLUMINATI5">
+			<Text>Rosslyn</Text>
+		</Row>
 		<Row Tag="LOC_CITY_NAME_ILLUMINATI6">
-			<Text>Mont Saint-Michel</Text>
+			<Text>Umbra Solis</Text>
 		</Row>
 		<Row Tag="LOC_CITY_NAME_ILLUMINATI7">
 			<Text>Alamut</Text>
 		</Row>
 		<Row Tag="LOC_CITY_NAME_ILLUMINATI8">
-			<Text>Heliopolis</Text>
+			<Text>Oculus Prime</Text>
 		</Row>
 		<Row Tag="LOC_CITY_NAME_ILLUMINATI9">
-			<Text>Ephesus</Text>
-		</Row>
-		<Row Tag="LOC_CITY_NAME_ILLUMINATI10">
-			<Text>Delphi</Text>
-		</Row>
-		<Row Tag="LOC_CITY_NAME_ILLUMINATI11">
 			<Text>Eleusis</Text>
 		</Row>
+		<Row Tag="LOC_CITY_NAME_ILLUMINATI10">
+			<Text>Porta Caeli</Text>
+		</Row>
+		<Row Tag="LOC_CITY_NAME_ILLUMINATI11">
+			<Text>Delphi</Text>
+		</Row>
 		<Row Tag="LOC_CITY_NAME_ILLUMINATI12">
-			<Text>Chartres</Text>
+			<Text>Luxoria</Text>
 		</Row>
 		<Row Tag="LOC_CITY_NAME_ILLUMINATI13">
-			<Text>Glastonbury</Text>
+			<Text>Chartres</Text>
 		</Row>
 		<Row Tag="LOC_CITY_NAME_ILLUMINATI14">
-			<Text>Oak Island</Text>
+			<Text>Sanctum Velatum</Text>
 		</Row>
 		<Row Tag="LOC_CITY_NAME_ILLUMINATI15">
+			<Text>Heliopolis</Text>
+		</Row>
+		<Row Tag="LOC_CITY_NAME_ILLUMINATI16">
+			<Text>Apex Mundi</Text>
+		</Row>
+		<Row Tag="LOC_CITY_NAME_ILLUMINATI17">
+			<Text>Glastonbury</Text>
+		</Row>
+		<Row Tag="LOC_CITY_NAME_ILLUMINATI18">
+			<Text>Crypta Aeterna</Text>
+		</Row>
+		<Row Tag="LOC_CITY_NAME_ILLUMINATI19">
 			<Text>Baalbek</Text>
+		</Row>
+		<Row Tag="LOC_CITY_NAME_ILLUMINATI20">
+			<Text>Templum Lucis</Text>
+		</Row>
+		<Row Tag="LOC_CITY_NAME_ILLUMINATI21">
+			<Text>Rennes-le-Château</Text>
+		</Row>
+		<Row Tag="LOC_CITY_NAME_ILLUMINATI22">
+			<Text>Providentia</Text>
+		</Row>
+		<Row Tag="LOC_CITY_NAME_ILLUMINATI23">
+			<Text>Ephesus</Text>
+		</Row>
+		<Row Tag="LOC_CITY_NAME_ILLUMINATI24">
+			<Text>Pyramidion</Text>
+		</Row>
+		<Row Tag="LOC_CITY_NAME_ILLUMINATI25">
+			<Text>Akhetaten</Text>
 		</Row>
 	</EnglishText>
 </Database>

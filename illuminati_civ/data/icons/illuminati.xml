@@ -29,6 +29,18 @@
 			<ID>cult_illuminati</ID>
 			<Path>fs://game/illuminati_civ/icons/cult_illuminati.png</Path>
 		</Row>
+		<Row>
+			<ID>hidden_hand_illuminati</ID>
+			<Path>fs://game/illuminati_civ/icons/hidden_hand_illuminati.png</Path>
+		</Row>
+		<Row>
+			<ID>the_arcanum_illuminati</ID>
+			<Path>fs://game/illuminati_civ/icons/the_arcanum_illuminati.png</Path>
+		</Row>
+		<Row>
+			<ID>grand_design_illuminati</ID>
+			<Path>fs://game/illuminati_civ/icons/grand_design_illuminati.png</Path>
+		</Row>
 		<!-- Wonder -->
 		<Row>
 			<ID>WONDER_EYE_OF_PROVIDENCE</ID>
@@ -79,6 +91,17 @@
 		</Row>
 		<Row>
 			<ID>ICON_UNIT_ASSASSIN</ID>
+			<Path>fs://game/illuminati_civ/icons/unitflag_assassin.png</Path>
+			<Context>DEFAULT</Context>
+		</Row>
+		<!-- Sicarii -->
+		<Row>
+			<ID>UNIT_SICARII</ID>
+			<Path>fs://game/illuminati_civ/icons/unitflag_assassin.png</Path>
+			<Context>DEFAULT</Context>
+		</Row>
+		<Row>
+			<ID>ICON_UNIT_SICARII</ID>
 			<Path>fs://game/illuminati_civ/icons/unitflag_assassin.png</Path>
 			<Context>DEFAULT</Context>
 		</Row>

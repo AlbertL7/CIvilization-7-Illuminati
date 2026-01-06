@@ -11,36 +11,39 @@
 		<String context="Description">LOC_MOD_CODE_OF_LAWS_REVEAL_CIV_CULTURE_TREE_ILLUMINATI_DESCRIPTION</String>
 	</Modifier>
 
-	<!-- Illuminati Ability: Gold bonus for cities -->
+	<!-- Illuminati Ability: Gold bonus for cities (not towns) -->
 	<Modifier id="MOD_ILLUMINATI_EARLY_ESPIONAGE" collection="COLLECTION_PLAYER_CITIES" effect="EFFECT_CITY_ADJUST_YIELD">
 		<SubjectRequirements>
 			<Requirement type="REQUIREMENT_PLAYER_HAS_CIVILIZATION_OR_LEADER_TRAIT">
 				<Argument name="TraitType">TRAIT_ILLUMINATI</Argument>
 			</Requirement>
+			<Requirement type="REQUIREMENT_CITY_IS_TOWN" Inverse="true"/>
 		</SubjectRequirements>
 		<Argument name="YieldType">YIELD_GOLD</Argument>
 		<Argument name="Amount">2</Argument>
 		<String context="Preview">LOC_MOD_ILLUMINATI_EARLY_ESPIONAGE_DESCRIPTION</String>
 	</Modifier>
 
-	<!-- Bonus Gold for trade -->
+	<!-- Bonus Gold for cities (not towns) -->
 	<Modifier id="MOD_ILLUMINATI_GOLD_THEFT_BONUS" collection="COLLECTION_PLAYER_CITIES" effect="EFFECT_CITY_ADJUST_YIELD">
 		<SubjectRequirements>
 			<Requirement type="REQUIREMENT_PLAYER_HAS_CIVILIZATION_OR_LEADER_TRAIT">
 				<Argument name="TraitType">TRAIT_ILLUMINATI</Argument>
 			</Requirement>
+			<Requirement type="REQUIREMENT_CITY_IS_TOWN" Inverse="true"/>
 		</SubjectRequirements>
 		<Argument name="YieldType">YIELD_GOLD</Argument>
 		<Argument name="Amount">1</Argument>
 		<String context="Preview">LOC_MOD_ILLUMINATI_GOLD_THEFT_DESCRIPTION</String>
 	</Modifier>
 
-	<!-- Shadow Network: +2 Influence in all cities -->
+	<!-- Shadow Network: +2 Influence in all cities (not towns) -->
 	<Modifier id="MOD_ILLUMINATI_SHADOW_NETWORK" collection="COLLECTION_PLAYER_CITIES" effect="EFFECT_CITY_ADJUST_YIELD">
 		<SubjectRequirements>
 			<Requirement type="REQUIREMENT_PLAYER_HAS_CIVILIZATION_OR_LEADER_TRAIT">
 				<Argument name="TraitType">TRAIT_ILLUMINATI</Argument>
 			</Requirement>
+			<Requirement type="REQUIREMENT_CITY_IS_TOWN" Inverse="true"/>
 		</SubjectRequirements>
 		<Argument name="YieldType">YIELD_DIPLOMACY</Argument>
 		<Argument name="Amount">2</Argument>

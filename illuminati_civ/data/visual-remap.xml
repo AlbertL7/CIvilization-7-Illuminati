@@ -1,10 +1,50 @@
 <?xml version="1.0" encoding="utf-8"?>
 <Database>
 	<VisualRemaps>
-		<!-- Visual remappings for Illuminati units to use existing game models -->
-		<Row FromType="UNIT_KNIGHTS_TEMPLAR" ToType="UNIT_HORSEMAN"/>
-		<Row FromType="UNIT_KNIGHTS_TEMPLAR_2" ToType="UNIT_KNIGHT"/>
-		<Row FromType="UNIT_ASSASSIN_ILLUMINATI" ToType="UNIT_SCOUT"/>
-		<Row FromType="UNIT_ASSASSIN_ILLUMINATI_2" ToType="UNIT_SCOUT"/>
+		<!-- Knights Templar: Antiquity Cavalry using Chariot model -->
+		<Row>
+			<ID>REMAP_UNIT_KNIGHTS_TEMPLAR</ID>
+			<DisplayName>LOC_UNIT_KNIGHTS_TEMPLAR_NAME</DisplayName>
+			<Kind>UNIT</Kind>
+			<From>UNIT_KNIGHTS_TEMPLAR</From>
+			<To>UNIT_CHARIOT</To>
+		</Row>
+		<Row>
+			<ID>REMAP_UNIT_KNIGHTS_TEMPLAR_2</ID>
+			<DisplayName>LOC_UNIT_KNIGHTS_TEMPLAR_2_NAME</DisplayName>
+			<Kind>UNIT</Kind>
+			<From>UNIT_KNIGHTS_TEMPLAR_2</From>
+			<To>UNIT_CHARIOT</To>
+		</Row>
+		<!-- Assassin/Sicarii: Disguised as Migrants - hiding in plain sight -->
+		<Row>
+			<ID>REMAP_UNIT_ASSASSIN_ILLUMINATI</ID>
+			<DisplayName>LOC_UNIT_ASSASSIN_TIER1_NAME</DisplayName>
+			<Kind>UNIT</Kind>
+			<From>UNIT_ASSASSIN_ILLUMINATI</From>
+			<To>UNIT_MIGRANT</To>
+		</Row>
+		<Row>
+			<ID>REMAP_UNIT_ASSASSIN_ILLUMINATI_2</ID>
+			<DisplayName>LOC_UNIT_ASSASSIN_TIER2_NAME</DisplayName>
+			<Kind>UNIT</Kind>
+			<From>UNIT_ASSASSIN_ILLUMINATI_2</From>
+			<To>UNIT_MIGRANT</To>
+		</Row>
+		<Row>
+			<ID>REMAP_UNIT_SICARII</ID>
+			<DisplayName>LOC_UNIT_SICARII_NAME</DisplayName>
+			<Kind>UNIT</Kind>
+			<From>UNIT_SICARII</From>
+			<To>UNIT_MIGRANT</To>
+		</Row>
+		<!-- Secret Lodge: Uses Altar model for mysterious ritual theme -->
+		<Row>
+			<ID>REMAP_BUILDING_SECRET_LODGE</ID>
+			<DisplayName>LOC_BUILDING_SECRET_LODGE_NAME</DisplayName>
+			<Kind>BUILDING</Kind>
+			<From>BUILDING_SECRET_LODGE</From>
+			<To>BUILDING_ALTAR</To>
+		</Row>
 	</VisualRemaps>
 </Database>

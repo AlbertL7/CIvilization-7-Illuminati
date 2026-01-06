@@ -45,8 +45,8 @@
 		<Argument name="Tooltip">LOC_TRADITION_ILLUMINATI_FORBIDDEN_KNOWLEDGE_NAME</Argument>
 	</Modifier>
 
-	<!-- ASCENSION: +1 Gold and +1 Influence per Resource, +5 Combat Strength in enemy territory -->
-	<!-- Ultimate mastery - control over resources, diplomacy, and warfare -->
+	<!-- ASCENSION: +1 Gold and +1 Influence per Resource -->
+	<!-- Ultimate mastery - control over resources and diplomacy -->
 	<Modifier id="TRADITION_ILLUMINATI_ASCENSION_MOD_GOLD" collection="COLLECTION_OWNER" effect="EFFECT_PLAYER_ADJUST_YIELD_PER_RESOURCE">
 		<Argument name="YieldType">YIELD_GOLD</Argument>
 		<Argument name="Amount">1</Argument>
@@ -56,13 +56,6 @@
 	<Modifier id="TRADITION_ILLUMINATI_ASCENSION_MOD_DIPLOMACY" collection="COLLECTION_OWNER" effect="EFFECT_PLAYER_ADJUST_YIELD_PER_RESOURCE">
 		<Argument name="YieldType">YIELD_DIPLOMACY</Argument>
 		<Argument name="Amount">1</Argument>
-		<Argument name="Tooltip">LOC_TRADITION_ILLUMINATI_ASCENSION_NAME</Argument>
-	</Modifier>
-	<Modifier id="TRADITION_ILLUMINATI_ASCENSION_MOD_COMBAT" collection="COLLECTION_PLAYER_COMBAT" effect="EFFECT_ADJUST_UNIT_STRENGTH_MODIFIER">
-		<SubjectRequirements>
-			<Requirement type="REQUIREMENT_UNIT_IN_ENEMY_TERRITORY"/>
-		</SubjectRequirements>
-		<Argument name="Amount">5</Argument>
 		<Argument name="Tooltip">LOC_TRADITION_ILLUMINATI_ASCENSION_NAME</Argument>
 	</Modifier>
 </GameEffects>

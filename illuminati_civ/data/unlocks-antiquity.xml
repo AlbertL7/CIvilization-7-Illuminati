@@ -1,8 +1,24 @@
 <?xml version="1.0" encoding="utf-8"?>
 <Database>
 	<ProgressionTreeNodeUnlocks>
-		<!-- Knights Templar unlocks at Military Training for Illuminati -->
-		<Row ProgressionTreeNodeType="NODE_TECH_AQ_MILITARY_TRAINING" TargetKind="KIND_UNIT" TargetType="UNIT_KNIGHTS_TEMPLAR" UnlockDepth="1" RequiredTraitType="TRAIT_ILLUMINATI"/>
-		<Row ProgressionTreeNodeType="NODE_TECH_AQ_MILITARY_TRAINING" TargetKind="KIND_UNIT" TargetType="UNIT_KNIGHTS_TEMPLAR_2" UnlockDepth="1" RequiredTraitType="TRAIT_ILLUMINATI_2"/>
+		<!-- ============================================== -->
+		<!-- ASSASSIN/SICARII UNIT UNLOCKS -->
+		<!-- ============================================== -->
+		<!-- Tier 1: Assassin replaces Warrior - available at game start (no unlock entry needed) -->
+
+		<!-- Tier 2: Assassin II unlocks at Bronze Working (replaces Spearman) -->
+		<Row ProgressionTreeNodeType="NODE_TECH_AQ_BRONZE_WORKING" TargetKind="KIND_UNIT" TargetType="UNIT_ASSASSIN_ILLUMINATI_2" UnlockDepth="1" RequiredTraitType="TRAIT_ILLUMINATI"/>
+
+		<!-- Tier 3: Sicarii unlocks at Iron Working (replaces Phalanx) -->
+		<Row ProgressionTreeNodeType="NODE_TECH_AQ_IRON_WORKING" TargetKind="KIND_UNIT" TargetType="UNIT_SICARII" UnlockDepth="1" RequiredTraitType="TRAIT_ILLUMINATI"/>
+
+		<!-- ============================================== -->
+		<!-- KNIGHTS TEMPLAR UNIT UNLOCKS -->
+		<!-- ============================================== -->
+		<!-- Tier 2: Knights Templar unlocks at Wheel (replaces Chariot) -->
+		<Row ProgressionTreeNodeType="NODE_TECH_AQ_WHEEL" TargetKind="KIND_UNIT" TargetType="UNIT_KNIGHTS_TEMPLAR" UnlockDepth="1" RequiredTraitType="TRAIT_ILLUMINATI"/>
+
+		<!-- Tier 3: Knights Templar II unlocks at Iron Working (replaces Horseman) -->
+		<Row ProgressionTreeNodeType="NODE_TECH_AQ_IRON_WORKING" TargetKind="KIND_UNIT" TargetType="UNIT_KNIGHTS_TEMPLAR_2" UnlockDepth="1" RequiredTraitType="TRAIT_ILLUMINATI"/>
 	</ProgressionTreeNodeUnlocks>
 </Database>

@@ -1,40 +1,135 @@
 <?xml version="1.0" encoding="utf-8"?>
 <Database>
 	<EnglishText>
-		<!-- Knights Templar -->
+		<!-- ============================================== -->
+		<!-- KNIGHTS TEMPLAR TIER 2 (Replaces Chariot - Wheel) -->
+		<!-- ============================================== -->
 		<Row Tag="LOC_UNIT_KNIGHTS_TEMPLAR_NAME">
 			<Text>Knights Templar</Text>
 		</Row>
 		<Row Tag="LOC_UNIT_KNIGHTS_TEMPLAR_BASE_DESCRIPTION">
-			<Text>Illuminati Unique Heavy Cavalry Unit. Replaces Horseman. Unlocks at Military Training. +5 Combat Strength against foreign units.</Text>
+			<Text>Illuminati Unique Heavy Cavalry Unit (Tier 2). Replaces Chariot.[N][N]• [B]Oathbound[/B]: +3 [icon:YIELD_COMBAT] Combat Strength in friendly territory[N]• [B]Holy Order[/B]: -50% [icon:YIELD_GOLD] Maintenance</Text>
 		</Row>
 		<Row Tag="LOC_UNIT_KNIGHTS_TEMPLAR_DESCRIPTION">
-			<Text>Illuminati Unique Heavy Cavalry Unit. Replaces Horseman. Unlocks at Military Training. +5 Combat Strength against foreign units.</Text>
+			<Text>Illuminati Unique Heavy Cavalry Unit (Tier 2). Replaces Chariot.[N][N]• [B]Oathbound[/B]: +3 [icon:YIELD_COMBAT] Combat Strength in friendly territory[N]• [B]Holy Order[/B]: -50% [icon:YIELD_GOLD] Maintenance</Text>
 		</Row>
 
-		<!-- Assassin -->
+		<!-- ============================================== -->
+		<!-- KNIGHTS TEMPLAR TIER 3 (Replaces Horseman - Iron Working) -->
+		<!-- ============================================== -->
+		<Row Tag="LOC_UNIT_KNIGHTS_TEMPLAR_2_NAME">
+			<Text>Knights Templar</Text>
+		</Row>
+		<Row Tag="LOC_UNIT_KNIGHTS_TEMPLAR_2_BASE_DESCRIPTION">
+			<Text>Illuminati Unique Heavy Cavalry Unit (Tier 3). Replaces Horseman.[N][N]• [B]Oathbound[/B]: +3 [icon:YIELD_COMBAT] Combat Strength in friendly territory[N]• [B]Holy Order[/B]: -50% [icon:YIELD_GOLD] Maintenance</Text>
+		</Row>
+		<Row Tag="LOC_UNIT_KNIGHTS_TEMPLAR_2_DESCRIPTION">
+			<Text>Illuminati Unique Heavy Cavalry Unit (Tier 3). Replaces Horseman.[N][N]• [B]Oathbound[/B]: +3 [icon:YIELD_COMBAT] Combat Strength in friendly territory[N]• [B]Holy Order[/B]: -50% [icon:YIELD_GOLD] Maintenance</Text>
+		</Row>
+
+		<!-- ============================================== -->
+		<!-- ASSASSIN TIER 1 (Replaces Warrior - Game Start) -->
+		<!-- ============================================== -->
+		<Row Tag="LOC_UNIT_ASSASSIN_TIER1_NAME">
+			<Text>Assassin</Text>
+		</Row>
+		<Row Tag="LOC_UNIT_ASSASSIN_TIER1_BASE_DESCRIPTION">
+			<Text>Illuminati Unique Infantry Unit (Tier 1). Replaces Warrior.[N][N]• [B]Swift[/B]: +1 [icon:YIELD_MOVEMENT] Movement[N]• [B]First Strike[/B]: +5 [icon:YIELD_COMBAT] Combat Strength at full HP[N]• [B]Shadow Step[/B]: Ignores Zone of Control</Text>
+		</Row>
+		<Row Tag="LOC_UNIT_ASSASSIN_TIER1_DESCRIPTION">
+			<Text>Illuminati Unique Infantry Unit (Tier 1). Replaces Warrior.[N][N]• [B]Swift[/B]: +1 [icon:YIELD_MOVEMENT] Movement[N]• [B]First Strike[/B]: +5 [icon:YIELD_COMBAT] Combat Strength at full HP[N]• [B]Shadow Step[/B]: Ignores Zone of Control</Text>
+		</Row>
+		<!-- Alternate naming for game lookup -->
+		<Row Tag="LOC_UNIT_ASSASSIN_ILLUMINATI_NAME">
+			<Text>Assassin</Text>
+		</Row>
+		<Row Tag="LOC_UNIT_ASSASSIN_ILLUMINATI_BASE_DESCRIPTION">
+			<Text>Illuminati Unique Infantry Unit (Tier 1). Replaces Warrior.[N][N]• [B]Swift[/B]: +1 [icon:YIELD_MOVEMENT] Movement[N]• [B]First Strike[/B]: +5 [icon:YIELD_COMBAT] Combat Strength at full HP[N]• [B]Shadow Step[/B]: Ignores Zone of Control</Text>
+		</Row>
+		<Row Tag="LOC_UNIT_ASSASSIN_ILLUMINATI_DESCRIPTION">
+			<Text>Illuminati Unique Infantry Unit (Tier 1). Replaces Warrior.[N][N]• [B]Swift[/B]: +1 [icon:YIELD_MOVEMENT] Movement[N]• [B]First Strike[/B]: +5 [icon:YIELD_COMBAT] Combat Strength at full HP[N]• [B]Shadow Step[/B]: Ignores Zone of Control</Text>
+		</Row>
+		<!-- Generic Assassin naming for civilization selection screen -->
 		<Row Tag="LOC_UNIT_ASSASSIN_NAME">
 			<Text>Assassin</Text>
 		</Row>
 		<Row Tag="LOC_UNIT_ASSASSIN_BASE_DESCRIPTION">
-			<Text>Illuminati Unique Recon Unit. Replaces Scout. Can see through terrain. Ignores Zone of Control. +3 Combat Strength when attacking. +5 when attacking at full health. +30 vs Commanders. +1 Sight.</Text>
+			<Text>Illuminati Unique Infantry Unit. Replaces Warrior.[N][N]• [B]Swift[/B]: +1 [icon:YIELD_MOVEMENT] Movement[N]• [B]First Strike[/B]: +5 [icon:YIELD_COMBAT] Combat Strength at full HP[N]• [B]Shadow Step[/B]: Ignores Zone of Control[N]• [B]Upgrades[/B]: Gain Flanking and Poison abilities</Text>
 		</Row>
 		<Row Tag="LOC_UNIT_ASSASSIN_DESCRIPTION">
-			<Text>Illuminati Unique Recon Unit. Replaces Scout. Can see through terrain. Ignores Zone of Control. +3 Combat Strength when attacking. +5 when attacking at full health. +30 vs Commanders. +1 Sight.</Text>
+			<Text>Illuminati Unique Infantry Unit. Replaces Warrior.[N][N]• [B]Swift[/B]: +1 [icon:YIELD_MOVEMENT] Movement[N]• [B]First Strike[/B]: +5 [icon:YIELD_COMBAT] Combat Strength at full HP[N]• [B]Shadow Step[/B]: Ignores Zone of Control[N]• [B]Upgrades[/B]: Gain Flanking and Poison abilities</Text>
 		</Row>
 
-		<!-- Unit Abilities -->
+		<!-- ============================================== -->
+		<!-- ASSASSIN TIER 2 (Replaces Spearman - Bronze Working) -->
+		<!-- ============================================== -->
+		<Row Tag="LOC_UNIT_ASSASSIN_TIER2_NAME">
+			<Text>Assassin</Text>
+		</Row>
+		<Row Tag="LOC_UNIT_ASSASSIN_TIER2_BASE_DESCRIPTION">
+			<Text>Illuminati Unique Infantry Unit (Tier 2). Replaces Spearman.[N][N]• [B]Swift[/B]: +1 [icon:YIELD_MOVEMENT] Movement[N]• [B]First Strike[/B]: +5 [icon:YIELD_COMBAT] Combat Strength at full HP[N]• [B]Shadow Step[/B]: Ignores Zone of Control[N]• [B]Flanking[/B]: +3 [icon:YIELD_COMBAT] Combat Strength when flanking</Text>
+		</Row>
+		<Row Tag="LOC_UNIT_ASSASSIN_TIER2_DESCRIPTION">
+			<Text>Illuminati Unique Infantry Unit (Tier 2). Replaces Spearman.[N][N]• [B]Swift[/B]: +1 [icon:YIELD_MOVEMENT] Movement[N]• [B]First Strike[/B]: +5 [icon:YIELD_COMBAT] Combat Strength at full HP[N]• [B]Shadow Step[/B]: Ignores Zone of Control[N]• [B]Flanking[/B]: +3 [icon:YIELD_COMBAT] Combat Strength when flanking</Text>
+		</Row>
+		<!-- Alternate naming for game lookup -->
+		<Row Tag="LOC_UNIT_ASSASSIN_ILLUMINATI_2_NAME">
+			<Text>Assassin</Text>
+		</Row>
+		<Row Tag="LOC_UNIT_ASSASSIN_ILLUMINATI_2_BASE_DESCRIPTION">
+			<Text>Illuminati Unique Infantry Unit (Tier 2). Replaces Spearman.[N][N]• [B]Swift[/B]: +1 [icon:YIELD_MOVEMENT] Movement[N]• [B]First Strike[/B]: +5 [icon:YIELD_COMBAT] Combat Strength at full HP[N]• [B]Shadow Step[/B]: Ignores Zone of Control[N]• [B]Flanking[/B]: +3 [icon:YIELD_COMBAT] Combat Strength when flanking</Text>
+		</Row>
+		<Row Tag="LOC_UNIT_ASSASSIN_ILLUMINATI_2_DESCRIPTION">
+			<Text>Illuminati Unique Infantry Unit (Tier 2). Replaces Spearman.[N][N]• [B]Swift[/B]: +1 [icon:YIELD_MOVEMENT] Movement[N]• [B]First Strike[/B]: +5 [icon:YIELD_COMBAT] Combat Strength at full HP[N]• [B]Shadow Step[/B]: Ignores Zone of Control[N]• [B]Flanking[/B]: +3 [icon:YIELD_COMBAT] Combat Strength when flanking</Text>
+		</Row>
+
+		<!-- ============================================== -->
+		<!-- SICARII TIER 3 (Replaces Phalanx - Iron Working) -->
+		<!-- ============================================== -->
+		<Row Tag="LOC_UNIT_SICARII_NAME">
+			<Text>Sicarii</Text>
+		</Row>
+		<Row Tag="LOC_UNIT_SICARII_BASE_DESCRIPTION">
+			<Text>Illuminati Elite Infantry Unit (Tier 3). Replaces Phalanx.[N][N]• [B]Swift[/B]: +1 [icon:YIELD_MOVEMENT] Movement[N]• [B]First Strike[/B]: +5 [icon:YIELD_COMBAT] Combat Strength at full HP[N]• [B]Shadow Step[/B]: Ignores Zone of Control[N]• [B]Flanking[/B]: +4 [icon:YIELD_COMBAT] Combat Strength when flanking[N]• [B]Poison[/B]: +3 [icon:YIELD_COMBAT] Combat Strength vs damaged units</Text>
+		</Row>
+		<Row Tag="LOC_UNIT_SICARII_DESCRIPTION">
+			<Text>Illuminati Elite Infantry Unit (Tier 3). Replaces Phalanx.[N][N]• [B]Swift[/B]: +1 [icon:YIELD_MOVEMENT] Movement[N]• [B]First Strike[/B]: +5 [icon:YIELD_COMBAT] Combat Strength at full HP[N]• [B]Shadow Step[/B]: Ignores Zone of Control[N]• [B]Flanking[/B]: +4 [icon:YIELD_COMBAT] Combat Strength when flanking[N]• [B]Poison[/B]: +3 [icon:YIELD_COMBAT] Combat Strength vs damaged units</Text>
+		</Row>
+
+		<!-- ============================================== -->
+		<!-- UNIT ABILITIES -->
+		<!-- ============================================== -->
+
+		<!-- Knights Templar Ability -->
 		<Row Tag="LOC_ABILITY_KNIGHTS_TEMPLAR_NAME">
-			<Text>Holy Crusaders</Text>
+			<Text>Oathbound Order</Text>
 		</Row>
 		<Row Tag="LOC_ABILITY_KNIGHTS_TEMPLAR_DESCRIPTION">
-			<Text>+5 Combat Strength against units from other civilizations. +3 Flanking bonus.</Text>
+			<Text>• [B]Oathbound[/B]: +3 [icon:YIELD_COMBAT] Combat Strength in friendly territory[N]• [B]Holy Order[/B]: -50% [icon:YIELD_GOLD] Maintenance cost</Text>
 		</Row>
-		<Row Tag="LOC_ABILITY_ASSASSIN_STRIKE_NAME">
+
+		<!-- Assassin Tier 1 Ability -->
+		<Row Tag="LOC_ABILITY_ASSASSIN_TIER1_NAME">
+			<Text>First Strike</Text>
+		</Row>
+		<Row Tag="LOC_ABILITY_ASSASSIN_TIER1_DESCRIPTION">
+			<Text>• [B]First Strike[/B]: +5 [icon:YIELD_COMBAT] Combat Strength at full HP[N]• [B]Shadow Step[/B]: Ignores Zone of Control</Text>
+		</Row>
+
+		<!-- Assassin Tier 2 Ability -->
+		<Row Tag="LOC_ABILITY_ASSASSIN_TIER2_NAME">
 			<Text>Shadow Strike</Text>
 		</Row>
-		<Row Tag="LOC_ABILITY_ASSASSIN_STRIKE_DESCRIPTION">
-			<Text>Can see through terrain features. Ignores Zone of Control. +3 Combat Strength when attacking. +5 Combat Strength when attacking at full health. +30 Combat Strength vs Commanders. +1 Sight Range.</Text>
+		<Row Tag="LOC_ABILITY_ASSASSIN_TIER2_DESCRIPTION">
+			<Text>• [B]First Strike[/B]: +5 [icon:YIELD_COMBAT] Combat Strength at full HP[N]• [B]Shadow Step[/B]: Ignores Zone of Control[N]• [B]Flanking[/B]: +3 [icon:YIELD_COMBAT] Combat Strength when flanking</Text>
+		</Row>
+
+		<!-- Sicarii Ability -->
+		<Row Tag="LOC_ABILITY_SICARII_STRIKE_NAME">
+			<Text>Deadly Strike</Text>
+		</Row>
+		<Row Tag="LOC_ABILITY_SICARII_STRIKE_DESCRIPTION">
+			<Text>• [B]First Strike[/B]: +5 [icon:YIELD_COMBAT] Combat Strength at full HP[N]• [B]Shadow Step[/B]: Ignores Zone of Control[N]• [B]Flanking[/B]: +4 [icon:YIELD_COMBAT] Combat Strength when flanking[N]• [B]Poison[/B]: +3 [icon:YIELD_COMBAT] Combat Strength vs damaged units</Text>
 		</Row>
 
 	</EnglishText>

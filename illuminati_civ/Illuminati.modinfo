@@ -9,6 +9,7 @@
 	</Properties>
 	<Dependencies>
 		<Mod id="base-standard" title="LOC_MODULE_BASE_STANDARD_NAME"/>
+		<Mod id="izica-unit-portrait-visual-remaps" title="Izica's unit portrait visual remaps"/>
 	</Dependencies>
 	<ActionCriteria>
 		<Criteria id="antiquity-age-current">
@@ -46,6 +47,9 @@
 					<Item>icons/civ_sym_illuminati</Item>
                     <Item>icons/civ_sym_illuminati.png</Item>
 					<Item>icons/cult_illuminati.png</Item>
+					<Item>icons/hidden_hand_illuminati.png</Item>
+					<Item>icons/the_arcanum_illuminati.png</Item>
+					<Item>icons/grand_design_illuminati.png</Item>
 					<Item>icons/unitflag_knights_templar.png</Item>
 					<Item>icons/unitflag_assassin.png</Item>
 					<Item>icons/wondericon_eye_of_providence.png</Item>
@@ -58,6 +62,9 @@
                 <UpdateIcons>
                     <Item>data/icons/illuminati.xml</Item>
                 </UpdateIcons>
+                <UIScripts>
+                    <Item>ui/game.js</Item>
+                </UIScripts>
                 <ScenarioScripts>
                 </ScenarioScripts>
             </Actions>
@@ -150,6 +157,9 @@
 					<Item>icons/civ_sym_illuminati</Item>
                     <Item>icons/civ_sym_illuminati.png</Item>
 					<Item>icons/cult_illuminati.png</Item>
+					<Item>icons/hidden_hand_illuminati.png</Item>
+					<Item>icons/the_arcanum_illuminati.png</Item>
+					<Item>icons/grand_design_illuminati.png</Item>
 					<Item>icons/unitflag_knights_templar.png</Item>
 					<Item>icons/unitflag_assassin.png</Item>
 					<Item>icons/wondericon_eye_of_providence.png</Item>

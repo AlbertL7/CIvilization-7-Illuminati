@@ -68,7 +68,7 @@
 			<Text>Veil of Secrecy</Text>
 		</Row>
 		<Row Tag="LOC_TRADITION_ILLUMINATI_VEIL_OF_SECRECY_DESCRIPTION">
-			<Text>Our agents hide cultural influence within financial institutions. +2 [icon:YIELD_CULTURE] Culture on Gold Buildings.</Text>
+			<Text>Our agents hide cultural and influence within financial institutions.[NEWLINE][NEWLINE] +2 [icon:YIELD_CULTURE] Culture on Gold buildings</Text>
 		</Row>
 
 		<!-- Web of Influence: Unlocked by The Hidden Hand -->
@@ -76,7 +76,7 @@
 			<Text>Web of Influence</Text>
 		</Row>
 		<Row Tag="LOC_TRADITION_ILLUMINATI_WEB_OF_INFLUENCE_DESCRIPTION">
-			<Text>Every trade route carries whispers of our influence and the gold to fund our operations. +2 [icon:YIELD_DIPLOMACY] Influence and +2 [icon:YIELD_GOLD] Gold for every active Trade Route.</Text>
+			<Text>Every trade route carries whispers of our influence.[NEWLINE][NEWLINE] +2 [icon:YIELD_DIPLOMACY] Influence per Trade Route[NEWLINE] +2 [icon:YIELD_GOLD] Gold per Trade Route</Text>
 		</Row>
 
 		<!-- Forbidden Knowledge: Unlocked by The Arcanum -->
@@ -84,7 +84,7 @@
 			<Text>Forbidden Knowledge</Text>
 		</Row>
 		<Row Tag="LOC_TRADITION_ILLUMINATI_FORBIDDEN_KNOWLEDGE_DESCRIPTION">
-			<Text>Our initiated members unlock secrets hidden from common minds. +1 [icon:YIELD_SCIENCE] Science from Specialists. +3 [icon:YIELD_SCIENCE] Science in Towns.</Text>
+			<Text>Our initiates unlock secrets hidden from common minds.[NEWLINE][NEWLINE] +1 [icon:YIELD_SCIENCE] Science from Specialists[NEWLINE] +3 [icon:YIELD_SCIENCE] Science in Towns</Text>
 		</Row>
 
 		<!-- Ascension: Unlocked by The Grand Design -->
@@ -92,7 +92,7 @@
 			<Text>Ascension</Text>
 		</Row>
 		<Row Tag="LOC_TRADITION_ILLUMINATI_ASCENSION_DESCRIPTION">
-			<Text>Control of resources grants us dominion over wealth and warfare alike. +1 [icon:YIELD_GOLD] Gold and +1 [icon:YIELD_DIPLOMACY] Influence for every Resource assigned to Cities. +5 Combat Strength for Units in enemy territory.</Text>
+			<Text>The Order reaches its ultimate form.[NEWLINE][NEWLINE] +1 [icon:YIELD_GOLD] Gold per Resource[NEWLINE] +1 [icon:YIELD_DIPLOMACY] Influence per Resource</Text>
 		</Row>
 
 		<!-- ================================================== -->
@@ -102,37 +102,37 @@
 
 		<!-- The Initiation Modifiers -->
 		<Row Tag="LOC_MOD_ILLUMINATI_INITIATION_CULTURE_DESCRIPTION">
-			<Text>The Order's symbols spread across the land. +1 [icon:YIELD_CULTURE] Culture in all cities.</Text>
+			<Text> +1 [icon:YIELD_CULTURE] Culture in all cities</Text>
 		</Row>
 
 		<!-- The Hidden Hand Modifiers -->
 		<Row Tag="LOC_MOD_ILLUMINATI_HIDDEN_HAND_GOLD_DESCRIPTION">
-			<Text>Wealth flows through hidden channels. +2 [icon:YIELD_GOLD] Gold in all cities.</Text>
+			<Text> +2 [icon:YIELD_GOLD] Gold in all cities</Text>
 		</Row>
 		<Row Tag="LOC_MOD_ILLUMINATI_HIDDEN_HAND_INFLUENCE_DESCRIPTION">
-			<Text>Agents infiltrate every court. +2 [icon:YIELD_DIPLOMACY] Influence in all cities.</Text>
+			<Text> +2 [icon:YIELD_DIPLOMACY] Influence in all cities</Text>
 		</Row>
 
 		<!-- The Arcanum Modifiers -->
 		<Row Tag="LOC_MOD_ILLUMINATI_ARCANUM_SCIENCE_DESCRIPTION">
-			<Text>Ancient texts reveal their secrets. +2 [icon:YIELD_SCIENCE] Science in all cities.</Text>
+			<Text> +2 [icon:YIELD_SCIENCE] Science in all cities</Text>
 		</Row>
 		<Row Tag="LOC_MOD_ILLUMINATI_ARCANUM_TOWNS_DESCRIPTION">
-			<Text>Hidden laboratories pursue forbidden sciences. +2 [icon:YIELD_SCIENCE] Science in Towns.</Text>
+			<Text> +2 [icon:YIELD_SCIENCE] Science in Towns</Text>
 		</Row>
 
 		<!-- The Grand Design Modifiers -->
 		<Row Tag="LOC_MOD_ILLUMINATI_GRAND_DESIGN_TRADITION_SLOT_DESCRIPTION">
-			<Text>The Order's influence grows. +1 Tradition Slot.</Text>
+			<Text> +1 Tradition Slot</Text>
 		</Row>
 		<Row Tag="LOC_MOD_ILLUMINATI_SETTLEMENT_CAP_DESCRIPTION">
-			<Text>Our reach extends to new territories. +1 Settlement Cap.</Text>
+			<Text> +1 Settlement Cap</Text>
 		</Row>
 		<Row Tag="LOC_MOD_ILLUMINATI_GRAND_DESIGN_COMBAT_DESCRIPTION">
-			<Text>Assassins train in deadly arts. +3 Combat Strength for all units.</Text>
+			<Text> +3 [icon:YIELD_COMBAT] Combat Strength for all units</Text>
 		</Row>
 		<Row Tag="LOC_MOD_ILLUMINATI_GRAND_DESIGN_PURCHASE_DESCRIPTION">
-			<Text>Banks bow to our will. +15% Gold towards purchasing Buildings.</Text>
+			<Text> +15% [icon:YIELD_GOLD] Gold purchase efficiency</Text>
 		</Row>
 	</EnglishText>
 </Database>

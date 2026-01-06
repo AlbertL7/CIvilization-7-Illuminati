@@ -5,7 +5,7 @@
 			<Text>Illuminati Civilization</Text>
 		</Row>
 		<Row Tag="LOC_MODULE_ILLUMINATI_DESCRIPTION">
-			<Text>Adds the Illuminati as a playable Antiquity Age civilization. Masters of manipulation and keepers of the Ark of the Covenant, the Illuminati generate extra Gold and Influence in all cities through their Shadow Network. Features unique units: Knights Templar (elite cavalry) and Assassin (commander killer with +30 Combat vs Commanders), plus the Eye of Providence wonder.</Text>
+			<Text>Adds the Illuminati as a playable Antiquity Age civilization. Masters of manipulation and keepers of the Ark of the Covenant, the Illuminati generate extra Gold and Influence in all cities through their Shadow Network. Features a unique culture tree with powerful traditions, unique units (Knights Templar elite cavalry and the Assassin/Sicarii infantry line), the Secret Lodge building, Shadow Sanctum quarter, and the Eye of Providence wonder.</Text>
 		</Row>
 	</EnglishText>
 </Database>

@@ -17,19 +17,14 @@
 	<Constructible_ValidDistricts>
 		<Row ConstructibleType="WONDER_EYE_OF_PROVIDENCE" DistrictType="DISTRICT_WONDER"/>
 	</Constructible_ValidDistricts>
-	<Constructible_YieldChanges>
-		<Row ConstructibleType="WONDER_EYE_OF_PROVIDENCE" YieldType="YIELD_CULTURE" YieldChange="2"/>
-		<Row ConstructibleType="WONDER_EYE_OF_PROVIDENCE" YieldType="YIELD_GOLD" YieldChange="2"/>
-		<Row ConstructibleType="WONDER_EYE_OF_PROVIDENCE" YieldType="YIELD_DIPLOMACY" YieldChange="3"/>
-	</Constructible_YieldChanges>
+	<!-- Base yields removed for balance - only empire-wide bonuses remain -->
 	<ConstructibleModifiers>
 		<Row ConstructibleType="WONDER_EYE_OF_PROVIDENCE" ModifierId="WONDER_EYE_OF_PROVIDENCE_INFLUENCE"/>
-		<Row ConstructibleType="WONDER_EYE_OF_PROVIDENCE" ModifierId="WONDER_EYE_OF_PROVIDENCE_ESPIONAGE"/>
 		<Row ConstructibleType="WONDER_EYE_OF_PROVIDENCE" ModifierId="WONDER_EYE_OF_PROVIDENCE_VISIBILITY"/>
 		<Row ConstructibleType="WONDER_EYE_OF_PROVIDENCE" ModifierId="WONDER_EYE_OF_PROVIDENCE_GREAT_WORK_SLOT"/>
 	</ConstructibleModifiers>
 	<Constructible_Advisories>
-		<Row ConstructibleType="WONDER_EYE_OF_PROVIDENCE" AdvisoryClassType="ADVISORY_CLASS_CULTURE"/>
+		<Row ConstructibleType="WONDER_EYE_OF_PROVIDENCE" AdvisoryClassType="ADVISORY_CLASS_DIPLOMACY"/>
 	</Constructible_Advisories>
 	<!-- UNITS -->
 	<UnitAbilities>

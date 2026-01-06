@@ -4,53 +4,70 @@
 		<!-- Knights Templar - Elite Heavy Cavalry -->
 		<Row Type="UNIT_KNIGHTS_TEMPLAR" Kind="KIND_UNIT"/>
 		<Row Type="UNIT_KNIGHTS_TEMPLAR_2" Kind="KIND_UNIT"/>
-		<!-- Assassin - Covert Operations Unit -->
+		<!-- Assassin/Sicarii - Covert Operations Unit -->
 		<Row Type="UNIT_ASSASSIN_ILLUMINATI" Kind="KIND_UNIT"/>
 		<Row Type="UNIT_ASSASSIN_ILLUMINATI_2" Kind="KIND_UNIT"/>
+		<Row Type="UNIT_SICARII" Kind="KIND_UNIT"/>
 		<!-- Unique Abilities -->
 		<Row Type="ABILITY_KNIGHTS_TEMPLAR" Kind="KIND_ABILITY"/>
-		<Row Type="ABILITY_ASSASSIN_STRIKE" Kind="KIND_ABILITY"/>
+		<Row Type="ABILITY_ASSASSIN_TIER1" Kind="KIND_ABILITY"/>
+		<Row Type="ABILITY_ASSASSIN_TIER2" Kind="KIND_ABILITY"/>
+		<Row Type="ABILITY_SICARII_STRIKE" Kind="KIND_ABILITY"/>
 	</Types>
 	<Units>
 		<!-- Knights Templar: Elite Heavy Cavalry, Guardians of Sacred Relics -->
-		<Row UnitType="UNIT_KNIGHTS_TEMPLAR" Name="LOC_UNIT_KNIGHTS_TEMPLAR_NAME" Description="LOC_UNIT_KNIGHTS_TEMPLAR_DESCRIPTION" Tier="2" Maintenance="2" BaseSightRange="2" BaseMoves="4" UnitMovementClass="UNIT_MOVEMENT_CLASS_MOUNTED" Domain="DOMAIN_LAND" CoreClass="CORE_CLASS_MILITARY" FormationClass="FORMATION_CLASS_LAND_COMBAT" ZoneOfControl="true" TraitType="TRAIT_ILLUMINATI"/>
-		<Row UnitType="UNIT_KNIGHTS_TEMPLAR_2" Name="LOC_UNIT_KNIGHTS_TEMPLAR_NAME" Description="LOC_UNIT_KNIGHTS_TEMPLAR_DESCRIPTION" Tier="3" Maintenance="3" BaseSightRange="2" BaseMoves="4" UnitMovementClass="UNIT_MOVEMENT_CLASS_MOUNTED" Domain="DOMAIN_LAND" CoreClass="CORE_CLASS_MILITARY" FormationClass="FORMATION_CLASS_LAND_COMBAT" ZoneOfControl="true" TraitType="TRAIT_ILLUMINATI_2"/>
+		<Row UnitType="UNIT_KNIGHTS_TEMPLAR" Name="LOC_UNIT_KNIGHTS_TEMPLAR_NAME" Description="LOC_UNIT_KNIGHTS_TEMPLAR_DESCRIPTION" Tier="2" Maintenance="1" BaseSightRange="2" BaseMoves="4" UnitMovementClass="UNIT_MOVEMENT_CLASS_MOUNTED" Domain="DOMAIN_LAND" CoreClass="CORE_CLASS_MILITARY" FormationClass="FORMATION_CLASS_LAND_COMBAT" ZoneOfControl="true" TraitType="TRAIT_ILLUMINATI"/>
+		<Row UnitType="UNIT_KNIGHTS_TEMPLAR_2" Name="LOC_UNIT_KNIGHTS_TEMPLAR_2_NAME" Description="LOC_UNIT_KNIGHTS_TEMPLAR_2_DESCRIPTION" Tier="3" Maintenance="2" BaseSightRange="2" BaseMoves="4" UnitMovementClass="UNIT_MOVEMENT_CLASS_MOUNTED" Domain="DOMAIN_LAND" CoreClass="CORE_CLASS_MILITARY" FormationClass="FORMATION_CLASS_LAND_COMBAT" ZoneOfControl="true" TraitType="TRAIT_ILLUMINATI"/>
 
-		<!-- Assassin: Covert Unit, Scout replacement with combat ability -->
-		<Row UnitType="UNIT_ASSASSIN_ILLUMINATI" Name="LOC_UNIT_ASSASSIN_NAME" Description="LOC_UNIT_ASSASSIN_DESCRIPTION" BaseSightRange="2" BaseMoves="2" UnitMovementClass="UNIT_MOVEMENT_CLASS_RECON" Domain="DOMAIN_LAND" CoreClass="CORE_CLASS_RECON" FormationClass="FORMATION_CLASS_CIVILIAN" ZoneOfControl="false" TraitType="TRAIT_ILLUMINATI"/>
-		<Row UnitType="UNIT_ASSASSIN_ILLUMINATI_2" Name="LOC_UNIT_ASSASSIN_NAME" Description="LOC_UNIT_ASSASSIN_DESCRIPTION" BaseSightRange="3" BaseMoves="3" UnitMovementClass="UNIT_MOVEMENT_CLASS_RECON" Domain="DOMAIN_LAND" CoreClass="CORE_CLASS_RECON" FormationClass="FORMATION_CLASS_CIVILIAN" ZoneOfControl="false" TraitType="TRAIT_ILLUMINATI_2"/>
+		<!-- Assassin Tier 1: Replaces Warrior - First Strike + Ignore ZoC + 3 Movement -->
+		<Row UnitType="UNIT_ASSASSIN_ILLUMINATI" Name="LOC_UNIT_ASSASSIN_TIER1_NAME" Description="LOC_UNIT_ASSASSIN_TIER1_DESCRIPTION" Tier="1" Maintenance="1" BaseSightRange="2" BaseMoves="3" UnitMovementClass="UNIT_MOVEMENT_CLASS_FOOT" Domain="DOMAIN_LAND" CoreClass="CORE_CLASS_MILITARY" FormationClass="FORMATION_CLASS_LAND_COMBAT" ZoneOfControl="true" TraitType="TRAIT_ILLUMINATI"/>
+		<!-- Assassin Tier 2: Replaces Spearman - adds Flanking (+3) -->
+		<Row UnitType="UNIT_ASSASSIN_ILLUMINATI_2" Name="LOC_UNIT_ASSASSIN_TIER2_NAME" Description="LOC_UNIT_ASSASSIN_TIER2_DESCRIPTION" Tier="2" Maintenance="1" BaseSightRange="2" BaseMoves="3" UnitMovementClass="UNIT_MOVEMENT_CLASS_FOOT" Domain="DOMAIN_LAND" CoreClass="CORE_CLASS_MILITARY" FormationClass="FORMATION_CLASS_LAND_COMBAT" ZoneOfControl="true" TraitType="TRAIT_ILLUMINATI"/>
+		<!-- Sicarii: Replaces Phalanx - adds Poison (+3 vs damaged) + Flanking (+4) -->
+		<Row UnitType="UNIT_SICARII" Name="LOC_UNIT_SICARII_NAME" Description="LOC_UNIT_SICARII_DESCRIPTION" Tier="3" Maintenance="2" BaseSightRange="2" BaseMoves="3" UnitMovementClass="UNIT_MOVEMENT_CLASS_FOOT" Domain="DOMAIN_LAND" CoreClass="CORE_CLASS_MILITARY" FormationClass="FORMATION_CLASS_LAND_COMBAT" ZoneOfControl="true" TraitType="TRAIT_ILLUMINATI"/>
 	</Units>
 	<Unit_Stats>
 		<!-- Knights Templar Stats - Strong melee heavy cavalry -->
 		<Row UnitType="UNIT_KNIGHTS_TEMPLAR" Combat="30" RangedCombat="0" Bombard="0" Range="0" />
 		<Row UnitType="UNIT_KNIGHTS_TEMPLAR_2" Combat="40" RangedCombat="0" Bombard="0" Range="0"/>
-		<!-- Assassin Stats - Lower base combat but powerful abilities -->
+		<!-- Assassin/Sicarii Stats - Infantry line -->
 		<Row UnitType="UNIT_ASSASSIN_ILLUMINATI" Combat="17" RangedCombat="0" Bombard="0" Range="0"/>
 		<Row UnitType="UNIT_ASSASSIN_ILLUMINATI_2" Combat="24" RangedCombat="0" Bombard="0" Range="0"/>
+		<Row UnitType="UNIT_SICARII" Combat="32" RangedCombat="0" Bombard="0" Range="0"/>
 	</Unit_Stats>
 	<Unit_Costs>
 		<!-- Knights Templar -->
 		<Row UnitType="UNIT_KNIGHTS_TEMPLAR" YieldType="YIELD_PRODUCTION" Cost="100"/>
 		<Row UnitType="UNIT_KNIGHTS_TEMPLAR_2" YieldType="YIELD_PRODUCTION" Cost="140"/>
-		<!-- Assassin -->
-		<Row UnitType="UNIT_ASSASSIN_ILLUMINATI" YieldType="YIELD_PRODUCTION" Cost="70"/>
-		<Row UnitType="UNIT_ASSASSIN_ILLUMINATI_2" YieldType="YIELD_PRODUCTION" Cost="100"/>
+		<!-- Assassin/Sicarii -->
+		<Row UnitType="UNIT_ASSASSIN_ILLUMINATI" YieldType="YIELD_PRODUCTION" Cost="50"/>
+		<Row UnitType="UNIT_ASSASSIN_ILLUMINATI_2" YieldType="YIELD_PRODUCTION" Cost="80"/>
+		<Row UnitType="UNIT_SICARII" YieldType="YIELD_PRODUCTION" Cost="120"/>
 	</Unit_Costs>
 	<UnitUpgrades>
 		<Row Unit="UNIT_KNIGHTS_TEMPLAR" UpgradeUnit="UNIT_KNIGHTS_TEMPLAR_2"/>
 		<Row Unit="UNIT_ASSASSIN_ILLUMINATI" UpgradeUnit="UNIT_ASSASSIN_ILLUMINATI_2"/>
+		<Row Unit="UNIT_ASSASSIN_ILLUMINATI_2" UpgradeUnit="UNIT_SICARII"/>
 	</UnitUpgrades>
 	<UnitReplaces>
-		<!-- Knights Templar replaces Horseman -->
-		<Row CivUniqueUnitType="UNIT_KNIGHTS_TEMPLAR" ReplacesUnitType="UNIT_HORSEMAN"/>
+		<!-- Knights Templar replaces Cavalry line -->
+		<!-- Tier 2: Knights Templar replaces Chariot (unlocks at Wheel) -->
+		<Row CivUniqueUnitType="UNIT_KNIGHTS_TEMPLAR" ReplacesUnitType="UNIT_CHARIOT"/>
+		<!-- Tier 3: Knights Templar replaces Horseman -->
 		<Row CivUniqueUnitType="UNIT_KNIGHTS_TEMPLAR_2" ReplacesUnitType="UNIT_HORSEMAN"/>
-		<!-- Assassin replaces Scout -->
-		<Row CivUniqueUnitType="UNIT_ASSASSIN_ILLUMINATI" ReplacesUnitType="UNIT_SCOUT"/>
-		<Row CivUniqueUnitType="UNIT_ASSASSIN_ILLUMINATI_2" ReplacesUnitType="UNIT_SCOUT"/>
+		<!-- Assassin/Sicarii replaces Infantry line -->
+		<!-- Tier 1: Assassin replaces Warrior (available at start) -->
+		<Row CivUniqueUnitType="UNIT_ASSASSIN_ILLUMINATI" ReplacesUnitType="UNIT_WARRIOR"/>
+		<!-- Tier 2: Assassin replaces Spearman (unlocks at Bronze Working) -->
+		<Row CivUniqueUnitType="UNIT_ASSASSIN_ILLUMINATI_2" ReplacesUnitType="UNIT_SPEARMAN"/>
+		<!-- Tier 3: Sicarii replaces Phalanx (unlocks at Iron Working) -->
+		<Row CivUniqueUnitType="UNIT_SICARII" ReplacesUnitType="UNIT_PHALANX"/>
 	</UnitReplaces>
 	<Tags>
 		<Row Tag="UNIT_CLASS_KNIGHTS_TEMPLAR" Category="UNIT_CLASS"/>
-		<Row Tag="UNIT_CLASS_ASSASSIN" Category="UNIT_CLASS"/>
+		<Row Tag="UNIT_CLASS_ASSASSIN_TIER1" Category="UNIT_CLASS"/>
+		<Row Tag="UNIT_CLASS_ASSASSIN_TIER2" Category="UNIT_CLASS"/>
+		<Row Tag="UNIT_CLASS_SICARII" Category="UNIT_CLASS"/>
 	</Tags>
 	<TypeTags>
 		<!-- Knights Templar Tags -->
@@ -64,40 +81,56 @@
 		<Row Type="UNIT_KNIGHTS_TEMPLAR_2" Tag="UNIT_CLASS_CAVALRY"/>
 		<Row Type="UNIT_KNIGHTS_TEMPLAR_2" Tag="UNIT_CLASS_KNIGHTS_TEMPLAR"/>
 
-		<!-- Assassin Tags - Scout replacement -->
-		<Row Type="UNIT_ASSASSIN_ILLUMINATI" Tag="UNIT_CLASS_NON_COMBAT"/>
-		<Row Type="UNIT_ASSASSIN_ILLUMINATI" Tag="UNIT_CLASS_AUTOEXPLORE"/>
-		<Row Type="UNIT_ASSASSIN_ILLUMINATI" Tag="UNIT_CLASS_RECON"/>
-		<Row Type="UNIT_ASSASSIN_ILLUMINATI" Tag="UNIT_CLASS_RECON_ABILITIES"/>
-		<Row Type="UNIT_ASSASSIN_ILLUMINATI" Tag="UNIT_CLASS_INFLUENCE_INDEPENDENT"/>
-		<Row Type="UNIT_ASSASSIN_ILLUMINATI" Tag="UNIT_CLASS_ASSASSIN"/>
+		<!-- Assassin Tier 1 Tags -->
+		<Row Type="UNIT_ASSASSIN_ILLUMINATI" Tag="UNIT_CLASS_COMBAT"/>
+		<Row Type="UNIT_ASSASSIN_ILLUMINATI" Tag="UNIT_CLASS_INFANTRY"/>
+		<Row Type="UNIT_ASSASSIN_ILLUMINATI" Tag="UNIT_CLASS_MELEE"/>
+		<Row Type="UNIT_ASSASSIN_ILLUMINATI" Tag="UNIT_CLASS_ASSASSIN_TIER1"/>
 
-		<Row Type="UNIT_ASSASSIN_ILLUMINATI_2" Tag="UNIT_CLASS_NON_COMBAT"/>
-		<Row Type="UNIT_ASSASSIN_ILLUMINATI_2" Tag="UNIT_CLASS_AUTOEXPLORE"/>
-		<Row Type="UNIT_ASSASSIN_ILLUMINATI_2" Tag="UNIT_CLASS_RECON"/>
-		<Row Type="UNIT_ASSASSIN_ILLUMINATI_2" Tag="UNIT_CLASS_RECON_ABILITIES"/>
-		<Row Type="UNIT_ASSASSIN_ILLUMINATI_2" Tag="UNIT_CLASS_INFLUENCE_INDEPENDENT"/>
-		<Row Type="UNIT_ASSASSIN_ILLUMINATI_2" Tag="UNIT_CLASS_ASSASSIN"/>
+		<!-- Assassin Tier 2 Tags -->
+		<Row Type="UNIT_ASSASSIN_ILLUMINATI_2" Tag="UNIT_CLASS_COMBAT"/>
+		<Row Type="UNIT_ASSASSIN_ILLUMINATI_2" Tag="UNIT_CLASS_INFANTRY"/>
+		<Row Type="UNIT_ASSASSIN_ILLUMINATI_2" Tag="UNIT_CLASS_MELEE"/>
+		<Row Type="UNIT_ASSASSIN_ILLUMINATI_2" Tag="UNIT_CLASS_ASSASSIN_TIER2"/>
+
+		<!-- Sicarii Tags - Elite Infantry -->
+		<Row Type="UNIT_SICARII" Tag="UNIT_CLASS_COMBAT"/>
+		<Row Type="UNIT_SICARII" Tag="UNIT_CLASS_INFANTRY"/>
+		<Row Type="UNIT_SICARII" Tag="UNIT_CLASS_MELEE"/>
+		<Row Type="UNIT_SICARII" Tag="UNIT_CLASS_SICARII"/>
 	</TypeTags>
 	<UnitAbilities>
-		<!-- Knights Templar: Holy Crusaders - Bonus vs other civilizations -->
+		<!-- Knights Templar: Oathbound Order - Combat bonus in friendly territory, reduced maintenance -->
 		<Row UnitAbilityType="ABILITY_KNIGHTS_TEMPLAR" Name="LOC_ABILITY_KNIGHTS_TEMPLAR_NAME" Description="LOC_ABILITY_KNIGHTS_TEMPLAR_DESCRIPTION"/>
-		<!-- Assassin: Shadow Strike - Can eliminate enemy units without declaring war -->
-		<Row UnitAbilityType="ABILITY_ASSASSIN_STRIKE" Name="LOC_ABILITY_ASSASSIN_STRIKE_NAME" Description="LOC_ABILITY_ASSASSIN_STRIKE_DESCRIPTION"/>
+		<!-- Assassin Tier 1: First Strike - +5 CS at full HP, Ignore ZoC -->
+		<Row UnitAbilityType="ABILITY_ASSASSIN_TIER1" Name="LOC_ABILITY_ASSASSIN_TIER1_NAME" Description="LOC_ABILITY_ASSASSIN_TIER1_DESCRIPTION"/>
+		<!-- Assassin Tier 2: Shadow Strike - First Strike + Ignore ZoC + Flanking (+3) -->
+		<Row UnitAbilityType="ABILITY_ASSASSIN_TIER2" Name="LOC_ABILITY_ASSASSIN_TIER2_NAME" Description="LOC_ABILITY_ASSASSIN_TIER2_DESCRIPTION"/>
+		<!-- Sicarii: Deadly Strike - First Strike + Ignore ZoC + Flanking (+4) + Poison -->
+		<Row UnitAbilityType="ABILITY_SICARII_STRIKE" Name="LOC_ABILITY_SICARII_STRIKE_NAME" Description="LOC_ABILITY_SICARII_STRIKE_DESCRIPTION"/>
 	</UnitAbilities>
 	<UnitAbilityModifiers>
-		<Row UnitAbilityType="ABILITY_KNIGHTS_TEMPLAR" ModifierId="ABILITY_KNIGHTS_TEMPLAR_COMBAT_BONUS"/>
-		<Row UnitAbilityType="ABILITY_ASSASSIN_STRIKE" ModifierId="ABILITY_ASSASSIN_STRIKE_MOD"/>
-		<Row UnitAbilityType="ABILITY_ASSASSIN_STRIKE" ModifierId="ABILITY_ASSASSIN_SEE_THROUGH"/>
-		<Row UnitAbilityType="ABILITY_ASSASSIN_STRIKE" ModifierId="ABILITY_ASSASSIN_AMBUSH"/>
-		<Row UnitAbilityType="ABILITY_ASSASSIN_STRIKE" ModifierId="ABILITY_ASSASSIN_STEALTH_MOVEMENT"/>
-		<Row UnitAbilityType="ABILITY_ASSASSIN_STRIKE" ModifierId="ABILITY_ASSASSIN_DIPLOMATIC_PENALTY"/>
-		<Row UnitAbilityType="ABILITY_ASSASSIN_STRIKE" ModifierId="ABILITY_ASSASSIN_COMMANDER_KILLER"/>
+		<!-- Knights Templar Modifiers -->
+		<!-- Note: Maintenance reduction is granted via TRAIT_ILLUMINATI_ABILITY, not unit ability -->
+		<Row UnitAbilityType="ABILITY_KNIGHTS_TEMPLAR" ModifierId="ABILITY_KNIGHTS_TEMPLAR_FRIENDLY_COMBAT"/>
+		<!-- Assassin Tier 1: First Strike + Ignore ZoC -->
+		<Row UnitAbilityType="ABILITY_ASSASSIN_TIER1" ModifierId="ABILITY_FIRST_STRIKE"/>
+		<Row UnitAbilityType="ABILITY_ASSASSIN_TIER1" ModifierId="ABILITY_IGNORE_ZOC"/>
+		<!-- Assassin Tier 2: First Strike + Ignore ZoC + Flanking (+3) -->
+		<Row UnitAbilityType="ABILITY_ASSASSIN_TIER2" ModifierId="ABILITY_FIRST_STRIKE"/>
+		<Row UnitAbilityType="ABILITY_ASSASSIN_TIER2" ModifierId="ABILITY_IGNORE_ZOC"/>
+		<Row UnitAbilityType="ABILITY_ASSASSIN_TIER2" ModifierId="ABILITY_ASSASSIN_FLANKING"/>
+		<!-- Sicarii: First Strike + Ignore ZoC + Flanking (+4) + Poison -->
+		<Row UnitAbilityType="ABILITY_SICARII_STRIKE" ModifierId="ABILITY_FIRST_STRIKE"/>
+		<Row UnitAbilityType="ABILITY_SICARII_STRIKE" ModifierId="ABILITY_IGNORE_ZOC"/>
+		<Row UnitAbilityType="ABILITY_SICARII_STRIKE" ModifierId="ABILITY_SICARII_FLANKING"/>
+		<Row UnitAbilityType="ABILITY_SICARII_STRIKE" ModifierId="ABILITY_POISON"/>
 	</UnitAbilityModifiers>
 	<Unit_Advisories>
 		<Row UnitType="UNIT_KNIGHTS_TEMPLAR" AdvisoryClassType="ADVISORY_CLASS_MILITARY"/>
 		<Row UnitType="UNIT_KNIGHTS_TEMPLAR_2" AdvisoryClassType="ADVISORY_CLASS_MILITARY"/>
-		<Row UnitType="UNIT_ASSASSIN_ILLUMINATI" AdvisoryClassType="ADVISORY_CLASS_EMPIRE_EXPANSION"/>
-		<Row UnitType="UNIT_ASSASSIN_ILLUMINATI_2" AdvisoryClassType="ADVISORY_CLASS_EMPIRE_EXPANSION"/>
+		<Row UnitType="UNIT_ASSASSIN_ILLUMINATI" AdvisoryClassType="ADVISORY_CLASS_MILITARY"/>
+		<Row UnitType="UNIT_ASSASSIN_ILLUMINATI_2" AdvisoryClassType="ADVISORY_CLASS_MILITARY"/>
+		<Row UnitType="UNIT_SICARII" AdvisoryClassType="ADVISORY_CLASS_MILITARY"/>
 	</Unit_Advisories>
 </Database>

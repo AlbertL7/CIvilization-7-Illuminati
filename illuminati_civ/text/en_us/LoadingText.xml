@@ -2,28 +2,29 @@
 <Database>
 	<EnglishText>
 		<Row Tag="LOC_LOADING_CIV_INTRO_TEXT_ILLUMINATI">
-			<Text>From the shadows, we shape the world. Our knowledge is ancient, our reach is infinite, and our secrets are eternal.</Text>
+			<Text>From the unseen corridors of power, we guide the course of history. Our knowledge predates empires, our influence spans continents, and our secrets endure beyond time itself.</Text>
 		</Row>
 		<Row Tag="LOC_LOADING_INTRO_ILLUMINATI">
-			<Text>The Illuminati rise from the shadows...</Text>
+			<Text>The Illuminati emerge from the shadows, unseen yet unstoppable, shaping destiny through knowledge, wealth, and quiet dominion.</Text>
 		</Row>
 		<Row Tag="LOC_LOADING_CIV_TIPS_TEXT_ILLUMINATI">
-			<Text>The Illuminati excel at wealth generation and wonder construction. Use your bonus Gold income and unique Culture Tree to unlock powerful traditions and masteries.</Text>
+			<Text>The Illuminati thrive on wealth, influence, and hidden mastery. Leverage increased Gold generation and a unique Culture Tree to unlock powerful traditions, accelerate wonder construction, and outmaneuver rivals from behind the scenes.</Text>
 		</Row>
 		<Row Tag="LOC_LOADING_INFO_ILLUMINATI_1">
-			<Text>The Illuminati were founded in Ingolstadt, Bavaria in 1776 by Adam Weishaupt, a professor of law who sought to create a society based on reason and enlightenment.</Text>
+			<Text>The Illuminati were founded in 1776 in Ingolstadt, Bavaria by Adam Weishaupt, a scholar who envisioned a secret order devoted to reason, enlightenment, and the subtle reshaping of society.</Text>
 		</Row>
 		<Row Tag="LOC_LOADING_INFO_ILLUMINATI_2">
-			<Text>Legend speaks of the Ark of the Covenant being hidden by the Knights Templar after their persecution in 1307, its location known only to a select few initiates.</Text>
+			<Text>Whispers persist that the Knights Templar concealed sacred relics—perhaps even the Ark of the Covenant—after their fall in 1307, entrusting their secrets to hidden successors.</Text>
 		</Row>
 		<Row Tag="LOC_LOADING_INFO_ILLUMINATI_3">
-			<Text>The Eye of Providence, or All-Seeing Eye, has been used as a symbol of divine omniscience since ancient Egypt, later adopted by various secret societies.</Text>
+			<Text>The Eye of Providence, the All-Seeing Eye, symbolizes watchful omniscience and hidden authority. Its origins trace back to ancient civilizations, long before it became a mark of secret orders and unseen guardians.</Text>
 		</Row>
 		<Row Tag="LOC_LOADING_INFO_ILLUMINATI_4">
-			<Text>The Knights Templar were warrior monks who protected pilgrims traveling to the Holy Land, amassing great wealth and influence before their sudden dissolution.</Text>
+			<Text>The Knights Templar rose as warrior monks sworn to protect pilgrims, amassing immense wealth and influence before their abrupt destruction—an end that many believe was only an illusion.</Text>
 		</Row>
 		<Row Tag="LOC_LOADING_INFO_ILLUMINATI_5">
-			<Text>Throughout history, shadowy organizations have shaped events from behind the scenes, their true influence known only to those within their inner circles.</Text>
+			<Text>Across the ages, clandestine societies have quietly steered the fate of nations, proving that the greatest power is not wielded openly, but whispered into existence.</Text>
 		</Row>
 	</EnglishText>
 </Database>
+

@@ -1,11 +1,17 @@
 <?xml version="1.0" encoding="utf-8"?>
 <Database>
 	<EnglishText>
-		<Row Tag="LOC_UNLOCK_PLAY_AS_HATSHEPSUT_ILLUMINATI_TOOLTIP">
-			<Text>Hatshepsut's diplomatic cunning and mastery of trade networks align well with the Illuminati's shadowy influence.</Text>
+		<Row Tag="LOC_UNLOCK_PLAY_AS_MACHIAVELLI_ILLUMINATI_TOOLTIP">
+			<Text>Machiavelli's mastery of political manipulation and understanding of power makes him the ideal architect of the Illuminati's grand designs.</Text>
 		</Row>
-		<Row Tag="LOC_UNLOCK_PLAY_AS_HARRIET_TUBMAN_ILLUMINATI_TOOLTIP">
-			<Text>Harriet Tubman's expertise in covert operations and underground networks makes her a natural fit for the Illuminati.</Text>
+		<Row Tag="LOC_UNLOCK_PLAY_AS_ASHOKA_WORLD_RENOUNCER_ILLUMINATI_TOOLTIP">
+			<Text>Ashoka's transformation from conqueror to enlightened ruler mirrors the Illuminati's pursuit of hidden wisdom and influence through peaceful means.</Text>
+		</Row>
+		<Row Tag="LOC_UNLOCK_PLAY_AS_LAFAYETTE_ILLUMINATI_TOOLTIP">
+			<Text>Lafayette's revolutionary ideals and secret society connections make him a perfect champion for the Illuminati's vision of a new world order.</Text>
+		</Row>
+		<Row Tag="LOC_UNLOCK_PLAY_AS_ISABELLA_ILLUMINATI_TOOLTIP">
+			<Text>Isabella's zealous pursuit of religious and political unity aligns with the Illuminati's desire to shape civilization from the shadows.</Text>
 		</Row>
 	</EnglishText>
 </Database>
