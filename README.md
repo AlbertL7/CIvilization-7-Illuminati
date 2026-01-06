@@ -2,7 +2,7 @@
 
 A custom Antiquity Age civilization mod for **Sid Meier's Civilization VII**.
 
-> *"A secret society of immense power and influence, the Illuminati operate from the shadows. Keepers of ancient relics such as the legendary Ark of the Covenant."*
+> *"A secret society of immense power and influence, the Illuminati operate from the shadows. Keepers of ancient relics such as the legendary Ark of the Covenant."* The illuminati weild influece, lurk in the shadows desguised as assassins, and hide in the open with knights Templar.
 
 ## Features
 
